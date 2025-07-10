@@ -21,7 +21,7 @@ struct TestView: View {
     @State private var isCorrect: Bool = false
     @State private var bgIndex: Int = 0
     let bgImages = ["ForMenu", "ForMenu02", "ForMenu03", "ForMenu04"]
-    let timer = Timer.publish(every: 2.5, on: .main, in: .common).autoconnect()
+    let timer = Timer.publish(every: 30, on: .main, in: .common).autoconnect()
     
     var body: some View {
         ZStack {
