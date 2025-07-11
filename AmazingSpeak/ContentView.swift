@@ -73,8 +73,14 @@ struct TestSelectionView: View {
                 VStack(spacing: 28) {
                     ForEach(tests) { test in
                         Button(action: {
+                            print("⚪️ 點擊了: \(test.title)") // 追蹤按鈕點擊
+                            
                             selectedTest = test
                             showTestView = true
+                            
+                            print("⚪️ selectedTest 設定為: \(selectedTest?.title ?? "nil")") // 追蹤 selectedTest
+                            print("⚪️ showTestView 設定為: \(showTestView)") // 追蹤 showTestView
+                            
                         }) {
                             HStack {
                                 Image(systemName: test.image)
