@@ -1,0 +1,4 @@
+# Ignore Xcode user state files
+*.xcuserstate
+AmazingSpeak.xcodeproj/project.xcworkspace/xcuserdata/
+
