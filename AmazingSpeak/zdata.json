@@ -1,0 +1,250 @@
+{
+  "app": {
+    "name": "VocabMaster",
+    "version": "1.0.0",
+    "language": "zh-TW"
+  },
+  "user": {
+    "id": "user_12345",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "level": "intermediate",
+    "totalScore": 2850,
+    "streak": 7,
+    "settings": {
+      "dailyGoal": 20,
+      "notifications": true,
+      "soundEnabled": true,
+      "theme": "light"
+    },
+    "progress": {
+      "wordsLearned": 156,
+      "wordsReviewed": 89,
+      "accuracy": 0.85,
+      "lastStudyDate": "2025-07-11"
+    }
+  },
+  "vocabulary": {
+    "categories": [
+      {
+        "id": "cat_001",
+        "name": "商業英語",
+        "description": "商業場合常用單字",
+        "color": "#FF6B6B",
+        "icon": "briefcase",
+        "wordCount": 120,
+        "difficulty": "intermediate"
+      },
+      {
+        "id": "cat_002",
+        "name": "日常生活",
+        "description": "生活中常見單字",
+        "color": "#4ECDC4",
+        "icon": "home",
+        "wordCount": 200,
+        "difficulty": "beginner"
+      },
+      {
+        "id": "cat_003",
+        "name": "學術英語",
+        "description": "學術研究相關單字",
+        "color": "#45B7D1",
+        "icon": "graduation-cap",
+        "wordCount": 180,
+        "difficulty": "advanced"
+      }
+    ],
+    "words": [
+      {
+        "id": "word_001",
+        "word": "accomplish",
+        "phonetic": "/əˈkʌmplɪʃ/",
+        "partOfSpeech": "verb",
+        "difficulty": "intermediate",
+        "frequency": 0.75,
+        "categoryId": "cat_001",
+        "definitions": [
+          {
+            "definition": "完成；達成",
+            "example": "She accomplished her goal of learning 1000 new words.",
+            "exampleTranslation": "她完成了學習1000個新單字的目標。"
+          },
+          {
+            "definition": "實現；取得",
+            "example": "The team accomplished great results this quarter.",
+            "exampleTranslation": "團隊在本季度取得了優異的成果。"
+          }
+        ],
+        "synonyms": ["achieve", "complete", "fulfill"],
+        "antonyms": ["fail", "abandon"],
+        "tags": ["business", "achievement"],
+        "audioUrl": "https://example.com/audio/accomplish.mp3",
+        "imageUrl": "https://example.com/images/accomplish.jpg",
+        "dateAdded": "2025-07-01",
+        "userStatus": {
+          "learned": true,
+          "starred": false,
+          "reviewCount": 3,
+          "correctCount": 2,
+          "lastReviewed": "2025-07-10",
+          "nextReview": "2025-07-15"
+        }
+      },
+      {
+        "id": "word_002",
+        "word": "serendipity",
+        "phonetic": "/ˌserənˈdɪpɪti/",
+        "partOfSpeech": "noun",
+        "difficulty": "advanced",
+        "frequency": 0.15,
+        "categoryId": "cat_002",
+        "definitions": [
+          {
+            "definition": "意外的幸運發現",
+            "example": "Meeting my future business partner was pure serendipity.",
+            "exampleTranslation": "遇見我未來的商業夥伴純屬意外的幸運。"
+          }
+        ],
+        "synonyms": ["chance", "fortune", "luck"],
+        "antonyms": ["misfortune", "planned"],
+        "tags": ["luck", "discovery"],
+        "audioUrl": "https://example.com/audio/serendipity.mp3",
+        "imageUrl": "https://example.com/images/serendipity.jpg",
+        "dateAdded": "2025-07-05",
+        "userStatus": {
+          "learned": false,
+          "starred": true,
+          "reviewCount": 1,
+          "correctCount": 0,
+          "lastReviewed": "2025-07-08",
+          "nextReview": "2025-07-12"
+        }
+      }
+    ]
+  },
+  "studyPlans": [
+    {
+      "id": "plan_001",
+      "name": "30天商業英語挑戰",
+      "description": "30天內掌握100個商業英語單字",
+      "duration": 30,
+      "targetWords": 100,
+      "categoryIds": ["cat_001"],
+      "dailyTarget": 4,
+      "startDate": "2025-07-01",
+      "endDate": "2025-07-30",
+      "status": "active",
+      "progress": 0.35
+    }
+  ],
+  "games": [
+    {
+      "id": "game_001",
+      "name": "單字配對",
+      "type": "matching",
+      "description": "將單字與正確定義配對",
+      "icon": "puzzle",
+      "minWords": 5,
+      "maxWords": 20,
+      "timeLimit": 60,
+      "difficulty": "easy"
+    },
+    {
+      "id": "game_002",
+      "name": "拼字挑戰",
+      "type": "spelling",
+      "description": "聽音拼出正確單字",
+      "icon": "keyboard",
+      "minWords": 10,
+      "maxWords": 30,
+      "timeLimit": 90,
+      "difficulty": "medium"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_001",
+      "name": "初學者",
+      "description": "學習第一個單字",
+      "icon": "star",
+      "requirement": {
+        "type": "words_learned",
+        "value": 1
+      },
+      "unlocked": true,
+      "unlockedDate": "2025-06-15"
+    },
+    {
+      "id": "ach_002",
+      "name": "連續7天",
+      "description": "連續7天學習單字",
+      "icon": "flame",
+      "requirement": {
+        "type": "streak_days",
+        "value": 7
+      },
+      "unlocked": true,
+      "unlockedDate": "2025-07-10"
+    },
+    {
+      "id": "ach_003",
+      "name": "單字達人",
+      "description": "學習500個單字",
+      "icon": "trophy",
+      "requirement": {
+        "type": "words_learned",
+        "value": 500
+      },
+      "unlocked": false,
+      "unlockedDate": null
+    }
+  ],
+  "statistics": {
+    "daily": {
+      "date": "2025-07-11",
+      "wordsStudied": 15,
+      "timeSpent": 1800,
+      "accuracy": 0.87,
+      "gamesPlayed": 3
+    },
+    "weekly": {
+      "weekStart": "2025-07-07",
+      "weekEnd": "2025-07-13",
+      "wordsStudied": 95,
+      "timeSpent": 8400,
+      "averageAccuracy": 0.82,
+      "daysActive": 5
+    },
+    "monthly": {
+      "month": "2025-07",
+      "wordsStudied": 156,
+      "timeSpent": 18000,
+      "averageAccuracy": 0.85,
+      "daysActive": 11
+    }
+  },
+  "settings": {
+    "app": {
+      "theme": "auto",
+      "language": "zh-TW",
+      "fontSize": "medium",
+      "animations": true
+    },
+    "study": {
+      "dailyReminder": true,
+      "reminderTime": "20:00",
+      "autoPlay": true,
+      "showPhonetic": true,
+      "reviewInterval": "spaced"
+    },
+    "privacy": {
+      "analytics": true,
+      "crashReporting": true,
+      "personalizedAds": false
+    }
+  },
+  "version": {
+    "dataVersion": "1.2.0",
+    "lastUpdated": "2025-07-11T10:30:00Z"
+  }
+}
