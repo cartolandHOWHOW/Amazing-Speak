@@ -1,303 +1,153 @@
+
 [
   {
-    "english_word": "abacus",
+    "english_word": "Accommodation",
     "part_of_speech": "n.",
-    "chinese_meaning": "算盤",
-    "example_sentence": "The ancient Romans used an abacus for calculations."
+    "chinese_meaning": "住宿",
+    "example_sentence": "Finding affordable accommodation is essential when planning a trip."
   },
   {
-    "english_word": "abandonee",
+    "english_word": "Itinerary",
     "part_of_speech": "n.",
-    "chinese_meaning": "被遺棄者",
-    "example_sentence": "The abandonee of the shipwreck was rescued by a passing freighter."
+    "chinese_meaning": "行程；旅遊路線",
+    "example_sentence": "We received a detailed itinerary for our tour of Italy."
   },
   {
-    "english_word": "abase",
-    "part_of_speech": "v.",
-    "chinese_meaning": "貶低；降低身分",
-    "example_sentence": "He would not abase himself by apologizing to his accuser."
-  },
-  {
-    "english_word": "abash",
-    "part_of_speech": "v.",
-    "chinese_meaning": "使尷尬；使羞愧",
-    "example_sentence": "She was not at all abashed by his open admiration."
-  },
-  {
-    "english_word": "abatement",
+    "english_word": "Passport",
     "part_of_speech": "n.",
-    "chinese_meaning": "減少；減輕",
-    "example_sentence": "The landlord offered a rent abatement due to the ongoing construction noise."
+    "chinese_meaning": "護照",
+    "example_sentence": "Don't forget your passport – you'll need it for international travel."
   },
   {
-    "english_word": "abattoir",
+    "english_word": "Visa",
     "part_of_speech": "n.",
-    "chinese_meaning": "屠宰場",
-    "example_sentence": "Animal welfare activists protested outside the abattoir."
+    "chinese_meaning": "簽證",
+    "example_sentence": "Many countries require a visa for entry, so check before you travel."
   },
   {
-    "english_word": "abdicate",
-    "part_of_speech": "v.",
-    "chinese_meaning": "退位；放棄職責",
-    "example_sentence": "The king decided to abdicate his throne in favor of his son."
-  },
-  {
-    "english_word": "aberrant",
-    "part_of_speech": "adj.",
-    "chinese_meaning": "越軌的；異常的",
-    "example_sentence": "His aberrant behavior was a cause for concern among his colleagues."
-  },
-  {
-    "english_word": "aberration",
+    "english_word": "Customs",
     "part_of_speech": "n.",
-    "chinese_meaning": "脫離常規；反常現象",
-    "example_sentence": "The sudden drop in temperature was an aberration for this time of year."
+    "chinese_meaning": "海關",
+    "example_sentence": "You'll go through customs after you collect your luggage at the airport."
   },
   {
-    "english_word": "abet",
-    "part_of_speech": "v.",
-    "chinese_meaning": "教唆；煽動",
-    "example_sentence": "He was accused of aiding and abetting the criminals."
-  },
-  {
-    "english_word": "abeyance",
+    "english_word": "Boarding Pass",
     "part_of_speech": "n.",
-    "chinese_meaning": "暫時中止；擱置",
-    "example_sentence": "The plans for the new building are being held in abeyance until the funding is secured."
+    "chinese_meaning": "登機證",
+    "example_sentence": "Have your boarding pass ready before you get to the gate."
   },
   {
-    "english_word": "abhor",
-    "part_of_speech": "v.",
-    "chinese_meaning": "憎惡；厭惡",
-    "example_sentence": "She abhors any form of discrimination."
-  },
-  {
-    "english_word": "abide",
-    "part_of_speech": "v.",
-    "chinese_meaning": "遵守；忍受",
-    "example_sentence": "You must abide by the rules of the agreement."
-  },
-  {
-    "english_word": "abject",
-    "part_of_speech": "adj.",
-    "chinese_meaning": "悲慘的；可憐的",
-    "example_sentence": "The refugees were living in abject poverty."
-  },
-  {
-    "english_word": "abjure",
-  "part_of_speech": "v.",
-    "chinese_meaning": "發誓放棄；公開放棄",
-    "example_sentence": "He was forced to abjure his former beliefs."
-  },
-  {
-    "english_word": "ablution",
+    "english_word": "Layover",
     "part_of_speech": "n.",
-    "chinese_meaning": "淨化；沐浴",
-    "example_sentence": "The ritual involved a ceremonial ablution before prayer."
+    "chinese_meaning": "(旅途中的) 短暫停留；中途停留",
+    "example_sentence": "Our flight has a three-hour layover in Dubai."
   },
   {
-    "english_word": "abnegate",
-    "part_of_speech": "v.",
-    "chinese_meaning": "放棄；否認",
-    "example_sentence": "She abnegated her rights to the inheritance."
-  },
-  {
-    "english_word": "abolish",
-    "part_of_speech": "v.",
-    "chinese_meaning": "廢除",
-    "example_sentence": "Slavery was abolished in the 19th century."
-  },
-  {
-    "english_word": "abominate",
-    "part_of_speech": "v.",
-    "chinese_meaning": "憎恨",
-    "example_sentence": "I abominate cruelty towards animals."
-  },
-  {
-    "english_word": "aboriginal",
-    "part_of_speech": "adj.",
-    "chinese_meaning": "原住民的；原始的",
-    "example_sentence": "The aboriginal peoples of Australia have a rich cultural history."
-  },
-  {
-    "english_word": "abortive",
-    "part_of_speech": "adj.",
-    "chinese_meaning": "失敗的；流產的",
-    "example_sentence": "The peace talks proved to be abortive."
-  },
-  {
-    "english_word": "abrade",
-    "part_of_speech": "v.",
-    "chinese_meaning": "磨損；擦傷",
-    "example_sentence": "The rough rope abraded his skin."
-  },
-  {
-    "english_word": "abridge",
-    "part_of_speech": "v.",
-    "chinese_meaning": "縮短；節略",
-    "example_sentence": "The editor decided to abridge the lengthy novel."
-  },
-  {
-    "english_word": "abrogate",
-    "part_of_speech": "v.",
-    "chinese_meaning": "廢除；撤銷",
-    "example_sentence": "The government sought to abrogate the old treaty."
-  },
-  {
-    "english_word": "abscission",
+    "english_word": "Souvenir",
     "part_of_speech": "n.",
-    "chinese_meaning": "切除；脫落",
-    "example_sentence": "The abscission of leaves occurs in autumn."
+    "chinese_meaning": "紀念品",
+    "example_sentence": "I always buy a small souvenir to remember my trips."
   },
   {
-     "english_word": "Banal",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "平庸的；陳腐的",
-     "example_sentence": "His conversation was so banal that I soon grew bored."
-   },
-   {
-     "english_word": "Baneful",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "有害的；惡意的",
-     "example_sentence": "The baneful effects of excessive screen time on children are well-documented."
-   },
-   {
-     "english_word": "Barbaric",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "野蠻的；粗野的",
-     "example_sentence": "The ancient tribe was known for its barbaric rituals."
-   },
-   {
-     "english_word": "Beguile",
-     "part_of_speech": "v.",
-     "chinese_meaning": "欺騙；使著迷",
-     "example_sentence": "She was beguiled by his charm and good looks."
-   },
-   {
-     "english_word": "Behemoth",
-     "part_of_speech": "n.",
-     "chinese_meaning": "巨獸；龐然大物",
-     "example_sentence": "The new skyscraper was a concrete behemoth dominating the city skyline."
-   },
-   {
-     "english_word": "Bellicose",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "好戰的；好鬥的",
-     "example_sentence": "His bellicose statements worried diplomats seeking a peaceful resolution."
-   },
-   {
-     "english_word": "Benevolent",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "仁慈的；慈善的",
-     "example_sentence": "The benevolent dictator was admired for his efforts to improve his people's lives."
-   },
-   {
-     "english_word": "Benign",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "良性的；溫和的",
-     "example_sentence": "Fortunately, the tumor was benign and easily removed."
-   },
-   {
-     "english_word": "Bequest",
-     "part_of_speech": "n.",
-     "chinese_meaning": "遺贈；遺產",
-     "example_sentence": "The artist's valuable collection was a generous bequest to the museum."
-   },
-   {
-     "english_word": "Bifurcate",
-     "part_of_speech": "v.",
-     "chinese_meaning": "分岔；分為兩支",
-     "example_sentence": "The path bifurcated, offering two different routes to the summit."
-   },
-   {
-     "english_word": "Bigoted",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "偏執的；有偏見的",
-     "example_sentence": "His bigoted views on immigration were widely condemned."
-   },
-   {
-     "english_word": "Bilk",
-     "part_of_speech": "v.",
-     "chinese_meaning": "欺騙；詐騙",
-     "example_sentence": "The con artist tried to bilk elderly investors out of their savings."
-   },
-   {
-     "english_word": "Blanch",
-     "part_of_speech": "v.",
-     "chinese_meaning": "漂白；臉色發白",
-     "example_sentence": "She blanched at the sight of the accident."
-   },
-   {
-     "english_word": "Blasphemy",
-     "part_of_speech": "n.",
-     "chinese_meaning": "褻瀆神明；褻瀆言辭",
-     "example_sentence": "His controversial remarks were seen by many as an act of blasphemy."
-   },
-   {
-     "english_word": "Blatant",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "公然的；明目張膽的",
-     "example_sentence": "The company's blatant disregard for environmental regulations led to hefty fines."
-   },
-   {
-     "english_word": "Blight",
-     "part_of_speech": "n./v.",
-     "chinese_meaning": "枯萎病；破壞；毀滅",
-     "example_sentence": "Urban decay is a blight on many modern cities."
-   },
-   {
-     "english_word": "Bode",
-     "part_of_speech": "v.",
-     "chinese_meaning": "預示；預兆",
-     "example_sentence": "Dark clouds on the horizon bode ill for our picnic plans."
-   },
-   {
-     "english_word": "Bombastic",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "浮誇的；言過其實的",
-     "example_sentence": "The politician's speech was full of bombastic rhetoric but lacked substance."
-   },
-   {
-     "english_word": "Bourgeois",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "中產階級的；庸俗的",
-     "example_sentence": "He criticized the bourgeois values of his conservative upbringing."
-   },
-   {
-     "english_word": "Bovine",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "牛的；遲鈍的",
-     "example_sentence": "His bovine expression indicated a lack of understanding."
-   },
-   {
-     "english_word": "Bravado",
-     "part_of_speech": "n.",
-     "chinese_meaning": "虛張聲勢；逞能",
-     "example_sentence": "His display of bravado masked his inner fear."
-   },
-   {
-     "english_word": "Bridle",
-     "part_of_speech": "v.",
-     "chinese_meaning": "控制；約束；（因生氣或受侮辱而）抬頭",
-     "example_sentence": "She bridled at the suggestion that she was incompetent."
-   },
-   {
-     "english_word": "Brobdingnagian",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "巨大的；龐大的",
-     "example_sentence": "They faced a brobdingnagian task of cleaning up the entire city after the storm."
-   },
-   {
-     "english_word": "Bucolic",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "田園的；鄉村的",
-     "example_sentence": "The painting depicted a serene bucolic scene with grazing sheep."
-   },
-   {
-     "english_word": "Burgeoning",
-     "part_of_speech": "adj.",
-     "chinese_meaning": "迅速發展的；激增的",
-     "example_sentence": "The burgeoning tech industry created many new job opportunities."
-   }
+    "english_word": "Landmark",
+    "part_of_speech": "n.",
+    "chinese_meaning": "地標；里程碑",
+    "example_sentence": "The Eiffel Tower is a famous landmark in Paris."
+  },
+  {
+    "english_word": "Currency",
+    "part_of_speech": "n.",
+    "chinese_meaning": "貨幣；流通貨幣",
+    "example_sentence": "What's the local currency in Japan?"
+  },
+  {
+    "english_word": "Exchange Rate",
+    "part_of_speech": "n.",
+    "chinese_meaning": "匯率",
+    "example_sentence": "Check the exchange rate before converting your money."
+  },
+  {
+    "english_word": "Baggage Claim",
+    "part_of_speech": "n.",
+    "chinese_meaning": "行李領取處",
+    "example_sentence": "After landing, head to baggage claim to pick up your bags."
+  },
+  {
+    "english_word": "Departure",
+    "part_of_speech": "n.",
+    "chinese_meaning": "出發；啟程",
+    "example_sentence": "The departure time for our train is 10:00 AM."
+  },
+  {
+    "english_word": "Arrival",
+    "part_of_speech": "n.",
+    "chinese_meaning": "抵達；到達",
+    "example_sentence": "We're expecting an early arrival at our destination."
+  },
+  {
+    "english_word": "Amenities",
+    "part_of_speech": "n.",
+    "chinese_meaning": "便利設施；舒適設施",
+    "example_sentence": "The hotel offers great amenities, including a pool and gym."
+  },
+  {
+    "english_word": "Reservation",
+    "part_of_speech": "n.",
+    "chinese_meaning": "預訂；預約",
+    "example_sentence": "I have a dinner reservation for two at 7 PM."
+  },
+  {
+    "english_word": "Concierge",
+    "part_of_speech": "n.",
+    "chinese_meaning": "禮賓服務員；門房",
+    "example_sentence": "The hotel concierge can help you book tours and taxis."
+  },
+  {
+    "english_word": "Excursion",
+    "part_of_speech": "n.",
+    "chinese_meaning": "短途旅行；遠足",
+    "example_sentence": "We took an excursion to the nearby national park."
+  },
+  {
+    "english_word": "Local Cuisine",
+    "part_of_speech": "n.",
+    "chinese_meaning": "當地菜餚；地方美食",
+    "example_sentence": "Trying the local cuisine is one of the best parts of traveling."
+  },
+  {
+    "english_word": "Jet Lag",
+    "part_of_speech": "n.",
+    "chinese_meaning": "時差反應",
+    "example_sentence": "After a long flight, I'm really suffering from jet lag."
+  },
+  {
+    "english_word": "Rental Car",
+    "part_of_speech": "n.",
+    "chinese_meaning": "租賃汽車",
+    "example_sentence": "We decided to get a rental car to explore the countryside."
+  },
+  {
+    "english_word": "Shuttle",
+    "part_of_speech": "n.",
+    "chinese_meaning": "接駁車",
+    "example_sentence": "There's a free shuttle service from the airport to the hotel."
+  },
+  {
+    "english_word": "Tip",
+    "part_of_speech": "v./n.",
+    "chinese_meaning": "給小費；小費",
+    "example_sentence": "It's customary to tip your server in this country."
+  },
+  {
+    "english_word": "Brochure",
+    "part_of_speech": "n.",
+    "chinese_meaning": "小冊子；指南",
+    "example_sentence": "We picked up a brochure with information about local attractions."
+  },
+  {
+    "english_word": "Foreign Exchange",
+    "part_of_speech": "n.",
+    "chinese_meaning": "外幣兌換",
+    "example_sentence": "You can find a foreign exchange counter at the airport."
+  }
 ]
-

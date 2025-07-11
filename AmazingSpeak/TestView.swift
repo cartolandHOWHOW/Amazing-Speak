@@ -1,4 +1,5 @@
 import SwiftUI
+import AVFoundation
 
 struct VocabularyItem: Codable, Identifiable, Equatable, Hashable {
     let id = UUID()
@@ -13,6 +14,8 @@ struct VocabularyItem: Codable, Identifiable, Equatable, Hashable {
 }
 
 struct TestView: View {
+    var vocabFile: String = "MyVocabulary"
+    var filter: ((VocabularyItem) -> Bool)? = nil
     @State private var vocabulary: [VocabularyItem] = []
     @State private var question: VocabularyItem?
     @State private var options: [String] = []
@@ -23,8 +26,8 @@ struct TestView: View {
     @State private var currentQuestion: Int = 1
     @State private var wrongWords: [VocabularyItem] = []
     @State private var showAnswerView: Bool = false
-    
     var totalQuestions: Int = 10
+    let synthesizer = AVSpeechSynthesizer()
     
     var body: some View {
         ZStack {
@@ -36,11 +39,21 @@ struct TestView: View {
                     .padding(.top, 32)
                 Spacer()
                 if let question = question {
-                    Text(question.english_word)
-                        .font(.largeTitle)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.primary)
-                        .padding()
+                    HStack(spacing: 12) {
+                        Text(question.english_word)
+                            .font(.largeTitle)
+                            .fontWeight(.semibold)
+                            .foregroundColor(.primary)
+                        Button(action: {
+                            speak(text: question.english_word)
+                        }) {
+                            Image(systemName: "speaker.wave.2.fill")
+                                .font(.title)
+                                .foregroundColor(.blue)
+                        }
+                        .accessibilityLabel("發音")
+                    }
+                    .padding()
                     VStack(spacing: 18) {
                         ForEach(options.indices, id: \.self) { idx in
                             Button(action: {
@@ -92,17 +105,27 @@ struct TestView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 32)
             .fullScreenCover(isPresented: $showAnswerView) {
-                AnswerView(wrongWords: wrongWords)
+                AnswerView(wrongWords: wrongWords, dismiss: { showAnswerView = false })
             }
         }
         .onAppear(perform: loadVocabulary)
     }
     
+    func speak(text: String) {
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        synthesizer.speak(utterance)
+    }
+    
     func loadVocabulary() {
-        if let url = Bundle.main.url(forResource: "MyVocabulary", withExtension: "json"),
+        if let url = Bundle.main.url(forResource: vocabFile, withExtension: "json"),
            let data = try? Data(contentsOf: url),
            let items = try? JSONDecoder().decode([VocabularyItem].self, from: data) {
-            vocabulary = items
+            if let filter = filter {
+                vocabulary = items.filter(filter)
+            } else {
+                vocabulary = items
+            }
             generateQuestion()
         }
     }
@@ -144,6 +167,7 @@ struct TestView: View {
 
 struct AnswerView: View {
     let wrongWords: [VocabularyItem]
+    let dismiss: () -> Void
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 16) {
@@ -167,6 +191,23 @@ struct AnswerView: View {
                     }
                 }
                 Spacer()
+                Button(action: {
+                    dismiss()
+                }) {
+                    Text("返回主選單")
+                        .font(.title2)
+                        .fontWeight(.medium)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 48)
+                        .padding(.vertical, 18)
+                        .background(
+                            LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.8), Color.purple.opacity(0.8)]), startPoint: .leading, endPoint: .trailing)
+                        )
+                        .cornerRadius(22)
+                        .shadow(color: .black.opacity(0.25), radius: 8, x: 0, y: 4)
+                }
+                .padding(.bottom, 32)
+                .frame(maxWidth: .infinity)
             }
             .padding(.horizontal, 24)
             .navigationTitle("答錯單字")
