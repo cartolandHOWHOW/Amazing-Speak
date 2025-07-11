@@ -1,5 +1,30 @@
 # Ignore Xcode user state files
 *.xcuserstate
+*.xcworkspace/xcuserdata/
+
+DerivedData/
 
 AmazingSpeak.xcodeproj/project.xcworkspace/xcuserdata/
 
+AmazingSpeak.xcodeproj/xcuserdata/dai_env.xcuserdatad/
+
+.DS_Store
+**build**/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# User-specific / Temporary
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.pbxuser
+*.xcodeproj/xcuserdata/
+*.xcworkspace/*.state
+*.xcworkspace/*.mode1v3
+*.xcworkspace/xcuserdata/
+*.bak
+*.stackdump
+
+# Misc
+!*.xcodeproj/project.xcworkspace/
