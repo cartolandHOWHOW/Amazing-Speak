@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # Ignore Xcode user state files
 *.xcuserstate
+=======
+AmazingSpeak.xcodeproj/project.xcworkspace/xcuserdata/max.xcuserdatad/
+
+# Ignore Xcode user state files
+*.xcuserstate
+
+>>>>>>> stu02
 AmazingSpeak.xcodeproj/project.xcworkspace/xcuserdata/
 
