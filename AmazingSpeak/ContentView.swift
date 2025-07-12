@@ -2,7 +2,7 @@ import SwiftUI
 import AVFoundation
 
 // MARK: - Data Models
-struct User {
+struct User: Codable {
     let id: String
     let name: String
     let email: String
@@ -13,21 +13,21 @@ struct User {
     var progress: UserProgress
 }
 
-struct UserSettings {
+struct UserSettings: Codable {
     var dailyGoal: Int
     var notifications: Bool
     var soundEnabled: Bool
     var theme: String
 }
 
-struct UserProgress {
+struct UserProgress: Codable {
     var wordsLearned: Int
     var wordsReviewed: Int
     var accuracy: Double
     var lastStudyDate: String
 }
 
-struct VocabularyCategory {
+struct VocabularyCategory: Codable {
     let id: String
     let name: String
     let description: String
@@ -37,7 +37,7 @@ struct VocabularyCategory {
     let difficulty: String
 }
 
-struct Word {
+struct Word: Codable {
     let id: String
     let word: String
     let phonetic: String
@@ -55,22 +55,22 @@ struct Word {
     var userStatus: UserWordStatus
 }
 
-struct Definition {
+struct Definition: Codable {
     let definition: String
     let example: String
     let exampleTranslation: String
 }
 
-struct UserWordStatus {
+struct UserWordStatus: Codable {
     var learned: Bool
     var starred: Bool
     var reviewCount: Int
     var correctCount: Int
-    var lastReviewed: String
-    var nextReview: String
+    var lastReviewed: String?
+    var nextReview: String?
 }
 
-struct Achievement {
+struct Achievement: Codable {
     let id: String
     let name: String
     let description: String
@@ -80,128 +80,223 @@ struct Achievement {
     let unlockedDate: String?
 }
 
-struct AchievementRequirement {
+struct AchievementRequirement: Codable {
     let type: String
     let value: Int
 }
-
-// MARK: - Sample Data
-class VocabularyData: ObservableObject {
-    @Published var user = User(
-        id: "user_12345",
-        name: "John Doe",
-        email: "john@example.com",
-        level: "intermediate",
-        totalScore: 2850,
-        streak: 7,
-        settings: UserSettings(dailyGoal: 20, notifications: true, soundEnabled: true, theme: "light"),
-        progress: UserProgress(wordsLearned: 156, wordsReviewed: 89, accuracy: 0.85, lastStudyDate: "2025-07-11")
-    )
-    
-    @Published var categories = [
-        VocabularyCategory(id: "cat_001", name: "商業英語", description: "商業場合常用單字", color: "#FF6B6B", icon: "briefcase", wordCount: 120, difficulty: "intermediate"),
-        VocabularyCategory(id: "cat_002", name: "日常生活", description: "生活中常見單字", color: "#4ECDC4", icon: "house", wordCount: 200, difficulty: "beginner"),
-        VocabularyCategory(id: "cat_003", name: "學術英語", description: "學術研究相關單字", color: "#45B7D1", icon: "graduationcap", wordCount: 180, difficulty: "advanced")
-    ]
-    
-    @Published var words = [
-        Word(
-            id: "word_001",
-            word: "accomplish",
-            phonetic: "/əˈkʌmplɪʃ/",
-            partOfSpeech: "verb",
-            difficulty: "intermediate",
-            frequency: 0.75,
-            categoryId: "cat_001",
-            definitions: [
-                Definition(definition: "完成；達成", example: "She accomplished her goal of learning 1000 new words.", exampleTranslation: "她完成了學習1000個新單字的目標。")
-            ],
-            synonyms: ["achieve", "complete", "fulfill"],
-            antonyms: ["fail", "abandon"],
-            tags: ["business", "achievement"],
-            audioUrl: "https://example.com/audio/accomplish.mp3",
-            imageUrl: "https://example.com/images/accomplish.jpg",
-            dateAdded: "2025-07-01",
-            userStatus: UserWordStatus(learned: true, starred: false, reviewCount: 3, correctCount: 2, lastReviewed: "2025-07-10", nextReview: "2025-07-15")
-        ),
-        Word(
-            id: "word_002",
-            word: "serendipity",
-            phonetic: "/ˌserənˈdɪpɪti/",
-            partOfSpeech: "noun",
-            difficulty: "advanced",
-            frequency: 0.15,
-            categoryId: "cat_002",
-            definitions: [
-                Definition(definition: "意外的幸運發現", example: "Meeting my future business partner was pure serendipity.", exampleTranslation: "遇見我未來的商業夥伴純屬意外的幸運。")
-            ],
-            synonyms: ["chance", "fortune", "luck"],
-            antonyms: ["misfortune", "planned"],
-            tags: ["luck", "discovery"],
-            audioUrl: "https://example.com/audio/serendipity.mp3",
-            imageUrl: "https://example.com/images/serendipity.jpg",
-            dateAdded: "2025-07-05",
-            userStatus: UserWordStatus(learned: false, starred: true, reviewCount: 1, correctCount: 0, lastReviewed: "2025-07-08", nextReview: "2025-07-12")
-        )
-    ]
-    
-    @Published var achievements = [
-        Achievement(id: "ach_001", name: "初學者", description: "學習第一個單字", icon: "star", requirement: AchievementRequirement(type: "words_learned", value: 1), unlocked: true, unlockedDate: "2025-06-15"),
-        Achievement(id: "ach_002", name: "連續7天", description: "連續7天學習單字", icon: "flame", requirement: AchievementRequirement(type: "streak_days", value: 7), unlocked: true, unlockedDate: "2025-07-10"),
-        Achievement(id: "ach_003", name: "單字達人", description: "學習500個單字", icon: "trophy", requirement: AchievementRequirement(type: "words_learned", value: 500), unlocked: false, unlockedDate: nil)
-    ]
+// MARK: - JSON Data Structure
+struct VocabularyData: Codable {
+    let user: User
+    let categories: [VocabularyCategory]
+    let words: [Word]
+    let achievements: [Achievement]
 }
 
-
-// MARK: - Main Content View
-struct ContentView: View {
-    @StateObject private var data = VocabularyData()
-    @State private var selectedTab = 0
+// MARK: - Data Manager
+class DataManager: ObservableObject {
+    @Published var user: User
+    @Published var categories: [VocabularyCategory] = []
+    @Published var words: [Word] = []
+    @Published var achievements: [Achievement] = []
+    @Published var isLoading = true
+    @Published var loadError: String?
     
-    var body: some View {
-        TabView(selection: $selectedTab) {
-            HomeView()
-                .tabItem {
-                    Image(systemName: "house.fill")
-                    Text("首頁")
-                }
-                .tag(0)
-            
-            CategoryView()
-                .tabItem {
-                    Image(systemName: "folder.fill")
-                    Text("分類")
-                }
-                .tag(1)
-            
-            StudyView()
-                .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("學習")
-                }
-                .tag(2)
-            
-            GameView()
-                .tabItem {
-                    Image(systemName: "gamecontroller.fill")
-                    Text("遊戲")
-                }
-                .tag(3)
-            
-            ProfileView()
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("個人")
-                }
-                .tag(4)
+    init() {
+        // Initialize with default user data
+        self.user = User(
+            id: "user_12345",
+            name: "使用者",
+            email: "user@example.com",
+            level: "初學者",
+            totalScore: 0,
+            streak: 0,
+            settings: UserSettings(dailyGoal: 20, notifications: true, soundEnabled: true, theme: "light"),
+            progress: UserProgress(wordsLearned: 0, wordsReviewed: 0, accuracy: 0.0, lastStudyDate: "")
+        )
+        
+        loadDataFromJSON()
+    }
+    
+    func loadDataFromJSON() {
+        guard let url = Bundle.main.url(forResource: "zdata", withExtension: "json") else {
+            DispatchQueue.main.async {
+                self.loadError = "找不到 zdata.json 檔案"
+                self.isLoading = false
+            }
+            return
         }
-        .environmentObject(data)
+        
+        do {
+            let data = try Data(contentsOf: url)
+            let vocabularyData = try JSONDecoder().decode(VocabularyData.self, from: data)
+            
+            DispatchQueue.main.async {
+                self.user = vocabularyData.user
+                self.categories = vocabularyData.categories
+                self.words = vocabularyData.words
+                self.achievements = vocabularyData.achievements
+                self.isLoading = false
+            }
+        } catch {
+            DispatchQueue.main.async {
+                self.loadError = "讀取資料時發生錯誤: \(error.localizedDescription)"
+                self.isLoading = false
+            }
+        }
+    }
+    
+    // MARK: - Data Operations
+    func updateUser(_ updatedUser: User) {
+        self.user = updatedUser
+        saveDataToJSON()
+    }
+    
+    func updateWordStatus(_ wordId: String, status: UserWordStatus) {
+        if let index = words.firstIndex(where: { $0.id == wordId }) {
+            words[index].userStatus = status
+            saveDataToJSON()
+        }
+    }
+    
+    func addWord(_ word: Word) {
+        words.append(word)
+        saveDataToJSON()
+    }
+    
+    func removeWord(_ wordId: String) {
+        words.removeAll { $0.id == wordId }
+        saveDataToJSON()
+    }
+    
+    private func saveDataToJSON() {
+        let vocabularyData = VocabularyData(
+            user: user,
+            categories: categories,
+            words: words,
+            achievements: achievements
+        )
+        
+        do {
+            let data = try JSONEncoder().encode(vocabularyData)
+            let documentsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            let saveURL = documentsPath.appendingPathComponent("zdata2.json")
+            try data.write(to: saveURL)
+        } catch {
+            print("保存資料時發生錯誤: \(error.localizedDescription)")
+        }
     }
 }
 
+// MARK: - Main Content View
+struct ContentView: View {
+    @StateObject private var dataManager = DataManager()
+    @State private var selectedTab = 0
+    
+    var body: some View {
+        Group {
+            if dataManager.isLoading {
+                LoadingView()
+            } else if let error = dataManager.loadError {
+                ErrorView(error: error) {
+                    dataManager.loadDataFromJSON()
+                }
+            } else {
+                TabView(selection: $selectedTab) {
+                    HomeView()
+                        .tabItem {
+                            Image(systemName: "house.fill")
+                            Text("首頁")
+                        }
+                        .tag(0)
+                    
+                    CategoryView()
+                        .tabItem {
+                            Image(systemName: "folder.fill")
+                            Text("分類")
+                        }
+                        .tag(1)
+                    
+                    StudyView()
+                        .tabItem {
+                            Image(systemName: "book.fill")
+                            Text("學習")
+                        }
+                        .tag(2)
+                    
+                    GameView()
+                        .tabItem {
+                            Image(systemName: "gamecontroller.fill")
+                            Text("遊戲")
+                        }
+                        .tag(3)
+                    
+                    ProfileView()
+                        .tabItem {
+                            Image(systemName: "person.fill")
+                            Text("個人")
+                        }
+                        .tag(4)
+                }
+            }
+        }
+        .environmentObject(dataManager)
+    }
+}
+
+// MARK: - Loading View
+struct LoadingView: View {
+    var body: some View {
+        VStack(spacing: 20) {
+            ProgressView()
+                .scaleEffect(1.5)
+            Text("載入中...")
+                .font(.headline)
+                .foregroundColor(.secondary)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(.systemBackground))
+    }
+}
+
+// MARK: - Error View
+struct ErrorView: View {
+    let error: String
+    let retry: () -> Void
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Image(systemName: "exclamationmark.triangle.fill")
+                .font(.system(size: 50))
+                .foregroundColor(.orange)
+            
+            Text("載入失敗")
+                .font(.title2)
+                .fontWeight(.bold)
+            
+            Text(error)
+                .font(.body)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal)
+            
+            Button("重試") {
+                retry()
+            }
+            .font(.headline)
+            .foregroundColor(.white)
+            .frame(width: 120, height: 44)
+            .background(Color.blue)
+            .cornerRadius(22)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(.systemBackground))
+    }
+}
+
+
 // MARK: - Home View
 struct HomeView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
@@ -210,7 +305,7 @@ struct HomeView: View {
                     // Header
                     HStack {
                         VStack(alignment: .leading) {
-                            Text("歡迎回來，\(data.user.name)!")
+                            Text("歡迎回來，\(dataManager.user.name)!")
                                 .font(.title2)
                                 .fontWeight(.bold)
                             Text("今天也要加油學習喔！")
@@ -221,7 +316,7 @@ struct HomeView: View {
                         VStack {
                             Image(systemName: "flame.fill")
                                 .foregroundColor(.orange)
-                            Text("\(data.user.streak)")
+                            Text("\(dataManager.user.streak)")
                                 .font(.title3)
                                 .fontWeight(.bold)
                         }
@@ -236,14 +331,15 @@ struct HomeView: View {
                         
                         HStack {
                             VStack(alignment: .leading) {
-                                Text("目標：\(data.user.settings.dailyGoal) 個單字")
+                                Text("目標：\(dataManager.user.settings.dailyGoal) 個單字")
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
                                 
-                                ProgressView(value: Double(data.user.progress.wordsLearned % data.user.settings.dailyGoal) / Double(data.user.settings.dailyGoal))
+                                let progress = Double(dataManager.user.progress.wordsLearned % dataManager.user.settings.dailyGoal) / Double(dataManager.user.settings.dailyGoal)
+                                ProgressView(value: progress)
                                     .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                                 
-                                Text("\(data.user.progress.wordsLearned % data.user.settings.dailyGoal)/\(data.user.settings.dailyGoal)")
+                                Text("\(dataManager.user.progress.wordsLearned % dataManager.user.settings.dailyGoal)/\(dataManager.user.settings.dailyGoal)")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -260,9 +356,9 @@ struct HomeView: View {
                     
                     // Statistics
                     HStack(spacing: 16) {
-                        StatCard(title: "已學習", value: "\(data.user.progress.wordsLearned)", icon: "book", color: .green)
-                        StatCard(title: "準確率", value: "\(Int(data.user.progress.accuracy * 100))%", icon: "target", color: .blue)
-                        StatCard(title: "總分", value: "\(data.user.totalScore)", icon: "star", color: .orange)
+                        StatCard(title: "已學習", value: "\(dataManager.user.progress.wordsLearned)", icon: "book", color: .green)
+                        StatCard(title: "準確率", value: "\(Int(dataManager.user.progress.accuracy * 100))%", icon: "target", color: .blue)
+                        StatCard(title: "總分", value: "\(dataManager.user.totalScore)", icon: "star", color: .orange)
                     }
                     .padding(.horizontal)
                     
@@ -300,7 +396,7 @@ struct HomeView: View {
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack(spacing: 12) {
-                                ForEach(data.achievements.filter { $0.unlocked }, id: \.id) { achievement in
+                                ForEach(dataManager.achievements.filter { $0.unlocked }, id: \.id) { achievement in
                                     AchievementCard(achievement: achievement)
                                 }
                             }
@@ -318,7 +414,7 @@ struct HomeView: View {
 
 // MARK: - Category View
 struct CategoryView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     
     var body: some View {
         NavigationView {
@@ -327,7 +423,7 @@ struct CategoryView: View {
                     GridItem(.flexible()),
                     GridItem(.flexible())
                 ], spacing: 16) {
-                    ForEach(data.categories, id: \.id) { category in
+                    ForEach(dataManager.categories, id: \.id) { category in
                         CategoryCard(category: category)
                     }
                 }
@@ -341,7 +437,7 @@ struct CategoryView: View {
 
 // MARK: - Study View
 struct StudyView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     @State private var currentWordIndex = 0
     @State private var showAnswer = false
     @State private var isCorrect: Bool?
@@ -349,15 +445,15 @@ struct StudyView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
-                if !data.words.isEmpty {
-                    let word = data.words[currentWordIndex]
+                if !dataManager.words.isEmpty {
+                    let word = dataManager.words[currentWordIndex]
                     
                     // Progress
-                    ProgressView(value: Double(currentWordIndex + 1) / Double(data.words.count))
+                    ProgressView(value: Double(currentWordIndex + 1) / Double(dataManager.words.count))
                         .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                         .padding(.horizontal)
                     
-                    Text("\(currentWordIndex + 1) / \(data.words.count)")
+                    Text("\(currentWordIndex + 1) / \(dataManager.words.count)")
                         .font(.caption)
                         .foregroundColor(.secondary)
                     
@@ -464,6 +560,17 @@ struct StudyView: View {
                         }
                         .padding(.horizontal)
                     }
+                } else {
+                    VStack(spacing: 16) {
+                        Image(systemName: "book.closed")
+                            .font(.system(size: 50))
+                            .foregroundColor(.gray)
+                        
+                        Text("沒有可學習的單字")
+                            .font(.headline)
+                            .foregroundColor(.secondary)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
             }
             .padding(.vertical)
@@ -473,10 +580,20 @@ struct StudyView: View {
     }
     
     private func nextWord(correct: Bool) {
-        isCorrect = correct
+        let word = dataManager.words[currentWordIndex]
+        var updatedStatus = word.userStatus
+        updatedStatus.reviewCount += 1
+        
+        if correct {
+            updatedStatus.correctCount += 1
+            updatedStatus.learned = true
+        }
+        
+        dataManager.updateWordStatus(word.id, status: updatedStatus)
+        
         showAnswer = false
         
-        if currentWordIndex < data.words.count - 1 {
+        if currentWordIndex < dataManager.words.count - 1 {
             currentWordIndex += 1
         } else {
             currentWordIndex = 0
@@ -486,7 +603,7 @@ struct StudyView: View {
 
 // MARK: - Game View
 struct GameView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     @State private var selectedGame = 0
     @State private var gameStarted = false
     @State private var currentQuestion = 0
@@ -547,7 +664,7 @@ struct GameView: View {
     
     private func startGame() {
         gameStarted = true
-        gameWords = Array(data.words.shuffled().prefix(10))
+        gameWords = Array(dataManager.words.shuffled().prefix(min(10, dataManager.words.count)))
         currentQuestion = 0
         score = 0
         nextQuestion()
@@ -559,7 +676,7 @@ struct GameView: View {
             var options = [word.definitions[0].definition]
             
             // Add random wrong answers
-            let otherWords = data.words.filter { $0.id != word.id }.shuffled().prefix(3)
+            let otherWords = dataManager.words.filter { $0.id != word.id }.shuffled().prefix(3)
             options.append(contentsOf: otherWords.map { $0.definitions[0].definition })
             
             shuffledOptions = options.shuffled()
@@ -570,110 +687,123 @@ struct GameView: View {
     
     private func multipleChoiceView() -> some View {
         VStack(spacing: 20) {
-            // Progress
-            ProgressView(value: Double(currentQuestion) / Double(gameWords.count))
-                .progressViewStyle(LinearProgressViewStyle(tint: .blue))
-                .padding(.horizontal)
-            
-            Text("\(currentQuestion + 1) / \(gameWords.count)")
-                .font(.caption)
-                .foregroundColor(.secondary)
-            
-            Text("分數: \(score)")
-                .font(.headline)
-                .foregroundColor(.blue)
-            
-            Spacer()
-            
-            if currentQuestion < gameWords.count {
-                let word = gameWords[currentQuestion]
+            if !gameWords.isEmpty {
+                // Progress
+                ProgressView(value: Double(currentQuestion) / Double(gameWords.count))
+                    .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                    .padding(.horizontal)
                 
-                // Question
+                Text("\(currentQuestion + 1) / \(gameWords.count)")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                
+                Text("分數: \(score)")
+                    .font(.headline)
+                    .foregroundColor(.blue)
+                
+                Spacer()
+                
+                if currentQuestion < gameWords.count {
+                    let word = gameWords[currentQuestion]
+                    
+                    // Question
+                    VStack(spacing: 16) {
+                        Text("這個單字的意思是？")
+                            .font(.headline)
+                            .foregroundColor(.secondary)
+                        
+                        Text(word.word)
+                            .font(.largeTitle)
+                            .fontWeight(.bold)
+                        
+                        Text(word.phonetic)
+                            .font(.title3)
+                            .foregroundColor(.secondary)
+                    }
+                    .padding()
+                    .background(Color(.systemGray6))
+                    .cornerRadius(16)
+                    .padding(.horizontal)
+                    
+                    // Options
+                    VStack(spacing: 12) {
+                        ForEach(shuffledOptions, id: \.self) { option in
+                            Button(action: {
+                                selectedAnswer = option
+                                checkAnswer(option, correctAnswer: word.definitions[0].definition)
+                            }) {
+                                Text(option)
+                                    .font(.headline)
+                                    .foregroundColor(.primary)
+                                    .frame(maxWidth: .infinity)
+                                    .frame(height: 50)
+                                    .background(
+                                        showResult ?
+                                        (option == word.definitions[0].definition ? Color.green.opacity(0.3) :
+                                         option == selectedAnswer ? Color.red.opacity(0.3) : Color(.systemGray6)) :
+                                        Color(.systemGray6)
+                                    )
+                                    .cornerRadius(12)
+                            }
+                            .disabled(showResult)
+                        }
+                    }
+                    .padding(.horizontal)
+                    
+                    if showResult {
+                        Button("下一題") {
+                            currentQuestion += 1
+                            if currentQuestion < gameWords.count {
+                                nextQuestion()
+                            } else {
+                                endGame()
+                            }
+                        }
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 50)
+                        .background(Color.blue)
+                        .cornerRadius(12)
+                        .padding(.horizontal)
+                    }
+                } else {
+                    // Game Over
+                    VStack(spacing: 16) {
+                        Text("遊戲結束！")
+                            .font(.title)
+                            .fontWeight(.bold)
+                        
+                        Text("最終分數: \(score)")
+                            .font(.title2)
+                            .foregroundColor(.blue)
+                        
+                        Button("重新開始") {
+                            gameStarted = false
+                        }
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: 50)
+                        .background(Color.blue)
+                        .cornerRadius(12)
+                        .padding(.horizontal)
+                    }
+                }
+                
+                Spacer()
+            } else {
                 VStack(spacing: 16) {
-                    Text("這個單字的意思是？")
+                    Image(systemName: "gamecontroller")
+                        .font(.system(size: 50))
+                        .foregroundColor(.gray)
+                    
+                    Text("沒有可用的單字進行遊戲")
                         .font(.headline)
                         .foregroundColor(.secondary)
-                    
-                    Text(word.word)
-                        .font(.largeTitle)
-                        .fontWeight(.bold)
-                    
-                    Text(word.phonetic)
-                        .font(.title3)
-                        .foregroundColor(.secondary)
                 }
-                .padding()
-                .background(Color(.systemGray6))
-                .cornerRadius(16)
-                .padding(.horizontal)
-                
-                // Options
-                VStack(spacing: 12) {
-                    ForEach(shuffledOptions, id: \.self) { option in
-                        Button(action: {
-                            selectedAnswer = option
-                            checkAnswer(option, correctAnswer: word.definitions[0].definition)
-                        }) {
-                            Text(option)
-                                .font(.headline)
-                                .foregroundColor(.primary)
-                                .frame(maxWidth: .infinity)
-                                .frame(height: 50)
-                                .background(
-                                    showResult ?
-                                    (option == word.definitions[0].definition ? Color.green.opacity(0.3) :
-                                     option == selectedAnswer ? Color.red.opacity(0.3) : Color(.systemGray6)) :
-                                    Color(.systemGray6)
-                                )
-                                .cornerRadius(12)
-                        }
-                        .disabled(showResult)
-                    }
-                }
-                .padding(.horizontal)
-                
-                if showResult {
-                    Button("下一題") {
-                        currentQuestion += 1
-                        if currentQuestion < gameWords.count {
-                            nextQuestion()
-                        } else {
-                            endGame()
-                        }
-                    }
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 50)
-                    .background(Color.blue)
-                    .cornerRadius(12)
-                    .padding(.horizontal)
-                }
-            } else {
-                // Game Over
-                VStack(spacing: 16) {
-                    Text("遊戲結束！")
-                        .font(.title)
-                        .fontWeight(.bold)
-                    
-                    Text("最終分數: \(score)")
-                        .font(.title2)
-                        .foregroundColor(.blue)
-                    
-                    Button("重新開始") {
-                        gameStarted = false
-                    }
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 50)
-                    .background(Color.blue)
-                    .cornerRadius(12)
-                    .padding(.horizontal)
-                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
-            
-            Spacer()
         }
     }
     
@@ -685,7 +815,7 @@ struct GameView: View {
     }
     
     private func endGame() {
-        // Handle game end
+        gameStarted = false
     }
     
     private func getGameIcon(for index: Int) -> String {
@@ -700,8 +830,8 @@ struct GameView: View {
 
 // MARK: - Profile View
 struct ProfileView: View {
-    @EnvironmentObject var data: VocabularyData
-    
+    @EnvironmentObject var dataManager: DataManager
+
     var body: some View {
         NavigationView {
             List {
@@ -711,18 +841,18 @@ struct ProfileView: View {
                             .font(.largeTitle)
                             .foregroundColor(.blue)
                         VStack(alignment: .leading) {
-                            Text(data.user.name)
+                            Text(dataManager.user.name)
                                 .font(.headline)
-                            Text(data.user.email)
+                            Text(dataManager.user.email)
                                 .font(.caption)
                                 .foregroundColor(.secondary)
                         }
                         Spacer()
                         VStack(alignment: .trailing) {
-                            Text("等級: \(data.user.level)")
+                            Text("等級: \(dataManager.user.level)")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
-                            Text("\(data.user.totalScore) 分")
+                            Text("\(dataManager.user.totalScore) 分")
                                 .font(.caption)
                                 .foregroundColor(.blue)
                         }
@@ -736,7 +866,7 @@ struct ProfileView: View {
                             .foregroundColor(.green)
                         Text("已學習單字")
                         Spacer()
-                        Text("\(data.user.progress.wordsLearned)")
+                        Text("\(dataManager.user.progress.wordsLearned)")
                             .foregroundColor(.secondary)
                     }
                     
@@ -745,7 +875,7 @@ struct ProfileView: View {
                             .foregroundColor(.blue)
                         Text("學習準確率")
                         Spacer()
-                        Text("\(Int(data.user.progress.accuracy * 100))%")
+                        Text("\(Int(dataManager.user.progress.accuracy * 100))%")
                             .foregroundColor(.secondary)
                     }
                     
@@ -754,13 +884,13 @@ struct ProfileView: View {
                             .foregroundColor(.orange)
                         Text("連續學習天數")
                         Spacer()
-                        Text("\(data.user.streak) 天")
+                        Text("\(dataManager.user.streak) 天")
                             .foregroundColor(.secondary)
                     }
                 }
                 
                 Section("成就") {
-                    ForEach(data.achievements, id: \.id) { achievement in
+                    ForEach(dataManager.achievements, id: \.id) { achievement in
                         HStack {
                             Image(systemName: achievement.icon)
                                 .foregroundColor(achievement.unlocked ? .yellow : .gray)
@@ -786,7 +916,7 @@ struct ProfileView: View {
                             .foregroundColor(.blue)
                         Text("每日目標")
                         Spacer()
-                        Text("\(data.user.settings.dailyGoal) 個單字")
+                        Text("\(dataManager.user.settings.dailyGoal) 個單字")
                             .foregroundColor(.secondary)
                     }
                     
@@ -795,7 +925,7 @@ struct ProfileView: View {
                             .foregroundColor(.orange)
                         Text("通知提醒")
                         Spacer()
-                        Text(data.user.settings.notifications ? "開啟" : "關閉")
+                        Text(dataManager.user.settings.notifications ? "開啟" : "關閉")
                             .foregroundColor(.secondary)
                     }
                     
@@ -804,7 +934,7 @@ struct ProfileView: View {
                             .foregroundColor(.purple)
                         Text("音效")
                         Spacer()
-                        Text(data.user.settings.soundEnabled ? "開啟" : "關閉")
+                        Text(dataManager.user.settings.soundEnabled ? "開啟" : "關閉")
                             .foregroundColor(.secondary)
                     }
                 }
@@ -1154,13 +1284,13 @@ struct WordDetailView: View {
 
 // MARK: - Word List View
 struct WordListView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     let category: VocabularyCategory
     @State private var searchText = ""
     @State private var sortOption = 0
     
     var filteredWords: [Word] {
-        let categoryWords = data.words.filter { $0.categoryId == category.id }
+        let categoryWords = dataManager.words.filter { $0.categoryId == category.id }
         let searchFiltered = searchText.isEmpty ? categoryWords : categoryWords.filter {
             $0.word.localizedCaseInsensitiveContains(searchText) ||
             $0.definitions.contains { $0.definition.localizedCaseInsensitiveContains(searchText) }
@@ -1277,7 +1407,7 @@ struct WordRowView: View {
 
 // MARK: - Settings View
 struct SettingsView: View {
-    @EnvironmentObject var data: VocabularyData
+    @EnvironmentObject var dataManager: DataManager
     @State private var dailyGoal = 20
     @State private var notifications = true
     @State private var soundEnabled = true

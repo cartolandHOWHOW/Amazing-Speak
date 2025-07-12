@@ -1,0 +1,177 @@
+{
+  "user": {
+    "id": "user_12345",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "level": "intermediate",
+    "totalScore": 2850,
+    "streak": 7,
+    "settings": {
+      "dailyGoal": 20,
+      "notifications": true,
+      "soundEnabled": true,
+      "theme": "light"
+    },
+    "progress": {
+      "wordsLearned": 156,
+      "wordsReviewed": 89,
+      "accuracy": 0.85,
+      "lastStudyDate": "2025-07-11"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat_001",
+      "name": "商業英語",
+      "description": "商業場合常用單字",
+      "color": "#FF6B6B",
+      "icon": "briefcase",
+      "wordCount": 120,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "cat_002",
+      "name": "日常生活",
+      "description": "生活中常見單字",
+      "color": "#4ECDC4",
+      "icon": "home",
+      "wordCount": 200,
+      "difficulty": "beginner"
+    },
+    {
+      "id": "cat_003",
+      "name": "學術英語",
+      "description": "學術研究相關單字",
+      "color": "#45B7D1",
+      "icon": "graduation-cap",
+      "wordCount": 180,
+      "difficulty": "advanced"
+    }
+  ],
+  "words": [
+    {
+      "id": "word_001",
+      "word": "accomplish",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "partOfSpeech": "verb",
+      "difficulty": "intermediate",
+      "frequency": 0.75,
+      "categoryId": "cat_001",
+      "definitions": [
+        {
+          "definition": "完成；達成",
+          "example": "She accomplished her goal of learning 1000 new words.",
+          "exampleTranslation": "她完成了學習1000個新單字的目標。"
+        },
+        {
+          "definition": "實現；取得",
+          "example": "The team accomplished great results this quarter.",
+          "exampleTranslation": "團隊在本季度取得了優異的成果。"
+        }
+      ],
+      "synonyms": [
+        "achieve",
+        "complete",
+        "fulfill"
+      ],
+      "antonyms": [
+        "fail",
+        "abandon"
+      ],
+      "tags": [
+        "business",
+        "achievement"
+      ],
+      "audioUrl": "https://example.com/audio/accomplish.mp3",
+      "imageUrl": "https://example.com/images/accomplish.jpg",
+      "dateAdded": "2025-07-01",
+      "userStatus": {
+        "learned": true,
+        "starred": false,
+        "reviewCount": 3,
+        "correctCount": 2,
+        "lastReviewed": "2025-07-10",
+        "nextReview": "2025-07-15"
+      }
+    },
+    {
+      "id": "word_003",
+      "word": "strategy",
+      "phonetic": "/ˈstrætədʒi/",
+      "partOfSpeech": "noun",
+      "difficulty": "intermediate",
+      "frequency": 0.82,
+      "categoryId": "cat_003",
+      "definitions": [
+        {
+          "definition": "策略；戰略",
+          "example": "The company's new marketing strategy focuses on digital channels.",
+          "exampleTranslation": "公司的新行銷策略專注於數位管道。"
+        }
+      ],
+      "synonyms": [
+        "plan",
+        "approach",
+        "tactic"
+      ],
+      "antonyms": [
+        "randomness",
+        "impulse"
+      ],
+      "tags": [
+        "business",
+        "planning",
+        "management"
+      ],
+      "audioUrl": "https://example.com/audio/strategy.mp3",
+      "imageUrl": "https://example.com/images/strategy.jpg",
+      "dateAdded": "2025-07-12",
+      "userStatus": {
+        "learned": false,
+        "starred": false,
+        "reviewCount": 0,
+        "correctCount": 0,
+        "lastReviewed": "2025-07-11",
+        "nextReview": "2025-07-13"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_001",
+      "name": "初學者",
+      "description": "學習第一個單字",
+      "icon": "star",
+      "requirement": {
+        "type": "words_learned",
+        "value": 1
+      },
+      "unlocked": true,
+      "unlockedDate": "2025-06-15"
+    },
+    {
+      "id": "ach_002",
+      "name": "連續7天",
+      "description": "連續7天學習單字",
+      "icon": "flame",
+      "requirement": {
+        "type": "streak_days",
+        "value": 7
+      },
+      "unlocked": true,
+      "unlockedDate": "2025-07-10"
+    },
+    {
+      "id": "ach_003",
+      "name": "單字達人",
+      "description": "學習500個單字",
+      "icon": "trophy",
+      "requirement": {
+        "type": "words_learned",
+        "value": 500
+      },
+      "unlocked": false,
+      "unlockedDate": null
+    }
+  ]
+}

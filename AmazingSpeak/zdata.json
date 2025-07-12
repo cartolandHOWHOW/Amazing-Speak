@@ -56,71 +56,4101 @@
     ],
     "words": [
       {
-        "id": "word_001",
-        "word": "accomplish",
-        "phonetic": "/əˈkʌmplɪʃ/",
-        "partOfSpeech": "verb",
-        "difficulty": "intermediate",
-        "frequency": 0.75,
-        "categoryId": "cat_001",
-        "definitions": [
-          {
-            "definition": "完成；達成",
-            "example": "She accomplished her goal of learning 1000 new words.",
-            "exampleTranslation": "她完成了學習1000個新單字的目標。"
-          },
-          {
-            "definition": "實現；取得",
-            "example": "The team accomplished great results this quarter.",
-            "exampleTranslation": "團隊在本季度取得了優異的成果。"
+          "id": "word_001",
+          "word": "accomplish",
+          "phonetic": "/əˈkʌmplɪʃ/",
+          "partOfSpeech": "verb",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_001",
+          "definitions": [
+              {
+                  "definition": "完成；達成",
+                  "example": "She accomplished her goal of learning 1000 new words.",
+                  "exampleTranslation": "她完成了學習1000個新單字的目標。"
+              },
+              {
+                  "definition": "實現；取得",
+                  "example": "The team accomplished great results this quarter.",
+                  "exampleTranslation": "團隊在本季度取得了優異的成果。"
+              }
+          ],
+          "synonyms": [
+              "achieve",
+              "complete",
+              "fulfill"
+          ],
+          "antonyms": [
+              "fail",
+              "abandon"
+          ],
+          "tags": [
+              "business",
+              "achievement"
+          ],
+          "audioUrl": "https://example.com/audio/accomplish.mp3",
+          "imageUrl": "https://example.com/images/accomplish.jpg",
+          "dateAdded": "2025-07-01",
+          "userStatus": {
+              "learned": true,
+              "starred": false,
+              "reviewCount": 3,
+              "correctCount": 2,
+              "lastReviewed": "2025-07-10",
+              "nextReview": "2025-07-15"
           }
-        ],
-        "synonyms": ["achieve", "complete", "fulfill"],
-        "antonyms": ["fail", "abandon"],
-        "tags": ["business", "achievement"],
-        "audioUrl": "https://example.com/audio/accomplish.mp3",
-        "imageUrl": "https://example.com/images/accomplish.jpg",
-        "dateAdded": "2025-07-01",
-        "userStatus": {
-          "learned": true,
-          "starred": false,
-          "reviewCount": 3,
-          "correctCount": 2,
-          "lastReviewed": "2025-07-10",
-          "nextReview": "2025-07-15"
-        }
       },
       {
-        "id": "word_002",
-        "word": "serendipity",
-        "phonetic": "/ˌserənˈdɪpɪti/",
-        "partOfSpeech": "noun",
-        "difficulty": "advanced",
-        "frequency": 0.15,
-        "categoryId": "cat_002",
-        "definitions": [
-          {
-            "definition": "意外的幸運發現",
-            "example": "Meeting my future business partner was pure serendipity.",
-            "exampleTranslation": "遇見我未來的商業夥伴純屬意外的幸運。"
+          "id": "word_002",
+          "word": "serendipity",
+          "phonetic": "/ˌserənˈdɪpɪti/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.15,
+          "categoryId": "cat_002",
+          "definitions": [
+              {
+                  "definition": "意外的幸運發現",
+                  "example": "Meeting my future business partner was pure serendipity.",
+                  "exampleTranslation": "遇見我未來的商業夥伴純屬意外的幸運。"
+              }
+          ],
+          "synonyms": [
+              "chance",
+              "fortune",
+              "luck"
+          ],
+          "antonyms": [
+              "misfortune",
+              "planned"
+          ],
+          "tags": [
+              "luck",
+              "discovery"
+          ],
+          "audioUrl": "https://example.com/audio/serendipity.mp3",
+          "imageUrl": "https://example.com/images/serendipity.jpg",
+          "dateAdded": "2025-07-05",
+          "userStatus": {
+              "learned": false,
+              "starred": true,
+              "reviewCount": 1,
+              "correctCount": 0,
+              "lastReviewed": "2025-07-08",
+              "nextReview": "2025-07-12"
           }
-        ],
-        "synonyms": ["chance", "fortune", "luck"],
-        "antonyms": ["misfortune", "planned"],
-        "tags": ["luck", "discovery"],
-        "audioUrl": "https://example.com/audio/serendipity.mp3",
-        "imageUrl": "https://example.com/images/serendipity.jpg",
-        "dateAdded": "2025-07-05",
-        "userStatus": {
-          "learned": false,
-          "starred": true,
-          "reviewCount": 1,
-          "correctCount": 0,
-          "lastReviewed": "2025-07-08",
-          "nextReview": "2025-07-12"
-        }
+      },
+      {
+          "id": "word_003",
+          "word": "strategy",
+          "phonetic": "/ˈstrætədʒi/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.82,
+          "categoryId": "cat_003",
+          "definitions": [
+              {
+                  "definition": "策略；戰略",
+                  "example": "The company's new marketing strategy focuses on digital channels.",
+                  "exampleTranslation": "公司的新行銷策略專注於數位管道。"
+              },
+              {
+                  "definition": "對策",
+                  "example": "What's our strategy for dealing with the competition?",
+                  "exampleTranslation": "我們應對競爭的對策是什麼？"
+              }
+          ],
+          "synonyms": [
+              "plan",
+              "approach",
+              "tactic"
+          ],
+          "antonyms": [
+              "randomness",
+              "impulse"
+          ],
+          "tags": [
+              "business",
+              "planning",
+              "management"
+          ],
+          "audioUrl": "https://example.com/audio/strategy.mp3",
+          "imageUrl": "https://example.com/images/strategy.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_004",
+          "word": "negotiate",
+          "phonetic": "/nɪˈɡoʊʃieɪt/",
+          "partOfSpeech": "verb",
+          "difficulty": "intermediate",
+          "frequency": 0.78,
+          "categoryId": "cat_004",
+          "definitions": [
+              {
+                  "definition": "談判；協商",
+                  "example": "We need to negotiate a better deal with our suppliers.",
+                  "exampleTranslation": "我們需要與供應商協商一個更好的交易。"
+              },
+              {
+                  "definition": "成功越過；設法處理",
+                  "example": "He successfully negotiated the tricky legal issues.",
+                  "exampleTranslation": "他成功地處理了棘手的法律問題。"
+              }
+          ],
+          "synonyms": [
+              "bargain",
+              "mediate",
+              "discuss"
+          ],
+          "antonyms": [
+              "concede",
+              "demand"
+          ],
+          "tags": [
+              "business",
+              "communication",
+              "sales"
+          ],
+          "audioUrl": "https://example.com/audio/negotiate.mp3",
+          "imageUrl": "https://example.com/images/negotiate.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_005",
+          "word": "deadline",
+          "phonetic": "/ˈdɛdlaɪn/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.85,
+          "categoryId": "cat_005",
+          "definitions": [
+              {
+                  "definition": "截止日期；最後期限",
+                  "example": "The project deadline is next Friday.",
+                  "exampleTranslation": "該專案的截止日期是下週五。"
+              }
+          ],
+          "synonyms": [
+              "cutoff",
+              "due date",
+              "timelimit"
+          ],
+          "antonyms": [
+              "start",
+              "open-ended"
+          ],
+          "tags": [
+              "business",
+              "project management",
+              "time management"
+          ],
+          "audioUrl": "https://example.com/audio/deadline.mp3",
+          "imageUrl": "https://example.com/images/deadline.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_006",
+          "word": "proposal",
+          "phonetic": "/prəˈpoʊzl/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.79,
+          "categoryId": "cat_006",
+          "definitions": [
+              {
+                  "definition": "提案；建議",
+                  "example": "She submitted a detailed proposal for the new marketing campaign.",
+                  "exampleTranslation": "她提交了一份關於新行銷活動的詳細提案。"
+              },
+              {
+                  "definition": "求婚",
+                  "example": "He made a marriage proposal to his girlfriend.",
+                  "exampleTranslation": "他向女友求婚了。"
+              }
+          ],
+          "synonyms": [
+              "suggestion",
+              "plan",
+              "bid"
+          ],
+          "antonyms": [
+              "rejection",
+              "withdrawal"
+          ],
+          "tags": [
+              "business",
+              "communication",
+              "sales"
+          ],
+          "audioUrl": "https://example.com/audio/proposal.mp3",
+          "imageUrl": "https://example.com/images/proposal.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_007",
+          "word": "revenue",
+          "phonetic": "/ˈrɛvənuː/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.88,
+          "categoryId": "cat_007",
+          "definitions": [
+              {
+                  "definition": "收入；收益",
+                  "example": "The company's revenue increased by 15% last quarter.",
+                  "exampleTranslation": "公司上季度的收入增加了15%。"
+              }
+          ],
+          "synonyms": [
+              "income",
+              "earnings",
+              "takings"
+          ],
+          "antonyms": [
+              "expenses",
+              "costs",
+              "losses"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/revenue.mp3",
+          "imageUrl": "https://example.com/images/revenue.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_008",
+          "word": "expenditure",
+          "phonetic": "/ɪkˈspɛndɪtʃər/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_008",
+          "definitions": [
+              {
+                  "definition": "開支；支出",
+                  "example": "We need to reduce our unnecessary expenditures to save money.",
+                  "exampleTranslation": "我們需要減少不必要的開支以節省金錢。"
+              }
+          ],
+          "synonyms": [
+              "expense",
+              "outlay",
+              "spending"
+          ],
+          "antonyms": [
+              "income",
+              "revenue",
+              "savings"
+          ],
+          "tags": [
+              "business",
+              "finance"
+          ],
+          "audioUrl": "https://example.com/audio/expenditure.mp3",
+          "imageUrl": "https://example.com/images/expenditure.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_009",
+          "word": "stakeholder",
+          "phonetic": "/ˈsteɪkˌhoʊldər/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.70,
+          "categoryId": "cat_009",
+          "definitions": [
+              {
+                  "definition": "利害關係人；股東",
+                  "example": "All stakeholders were invited to the annual general meeting.",
+                  "exampleTranslation": "所有利害關係人都被邀請參加年度股東大會。"
+              }
+          ],
+          "synonyms": [
+              "interested party",
+              "shareholder",
+              "investor"
+          ],
+          "antonyms": [
+              "opponent",
+              "bystander"
+          ],
+          "tags": [
+              "business",
+              "management",
+              "project management"
+          ],
+          "audioUrl": "https://example.com/audio/stakeholder.mp3",
+          "imageUrl": "https://example.com/images/stakeholder.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_010",
+          "word": "innovation",
+          "phonetic": "/ˌɪnəˈveɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.77,
+          "categoryId": "cat_010",
+          "definitions": [
+              {
+                  "definition": "創新；革新",
+                  "example": "Technological innovation is key to staying competitive.",
+                  "exampleTranslation": "技術創新是保持競爭力的關鍵。"
+              }
+          ],
+          "synonyms": [
+              "novelty",
+              "creativity",
+              "breakthrough"
+          ],
+          "antonyms": [
+              "stagnation",
+              "obsolescence",
+              "tradition"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "development"
+          ],
+          "audioUrl": "https://example.com/audio/innovation.mp3",
+          "imageUrl": "https://example.com/images/innovation.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_011",
+          "word": "competitor",
+          "phonetic": "/kəmˈpɛtɪtər/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.80,
+          "categoryId": "cat_011",
+          "definitions": [
+              {
+                  "definition": "競爭者；競爭對手",
+                  "example": "Our main competitor just launched a similar product.",
+                  "exampleTranslation": "我們的主要競爭對手剛推出了一個類似的產品。"
+              }
+          ],
+          "synonyms": [
+              "rival",
+              "opponent",
+              "contender"
+          ],
+          "antonyms": [
+              "ally",
+              "partner",
+              "collaborator"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "strategy"
+          ],
+          "audioUrl": "https://example.com/audio/competitor.mp3",
+          "imageUrl": "https://example.com/images/competitor.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_012",
+          "word": "merger",
+          "phonetic": "/ˈmɜːrdʒər/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_012",
+          "definitions": [
+              {
+                  "definition": "合併；併購",
+                  "example": "The two companies announced a merger to expand their market share.",
+                  "exampleTranslation": "兩家公司宣佈合併以擴大其市場份額。"
+              }
+          ],
+          "synonyms": [
+              "acquisition",
+              "consolidation",
+              "union"
+          ],
+          "antonyms": [
+              "split",
+              "division",
+              "separation"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "corporate"
+          ],
+          "audioUrl": "https://example.com/audio/merger.mp3",
+          "imageUrl": "https://example.com/images/merger.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_013",
+          "word": "acquisition",
+          "phonetic": "/ˌækwɪˈzɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.62,
+          "categoryId": "cat_013",
+          "definitions": [
+              {
+                  "definition": "收購；獲得",
+                  "example": "The company's latest acquisition will strengthen its position in the market.",
+                  "exampleTranslation": "公司最近的收購將鞏固其在市場上的地位。"
+              }
+          ],
+          "synonyms": [
+              "takeover",
+              "purchase",
+              "gain"
+          ],
+          "antonyms": [
+              "divestiture",
+              "sale",
+              "loss"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "corporate"
+          ],
+          "audioUrl": "https://example.com/audio/acquisition.mp3",
+          "imageUrl": "https://example.com/images/acquisition.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_014",
+          "word": "portfolio",
+          "phonetic": "/pɔːrtˈfoʊlioʊ/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_014",
+          "definitions": [
+              {
+                  "definition": "投資組合；作品集",
+                  "example": "Diversifying your investment portfolio can reduce risk.",
+                  "exampleTranslation": "分散您的投資組合可以降低風險。"
+              },
+              {
+                  "definition": "文件夾",
+                  "example": "She presented her design portfolio during the interview.",
+                  "exampleTranslation": "她在面試時展示了她的設計作品集。"
+              }
+          ],
+          "synonyms": [
+              "collection",
+              "range",
+              "selection"
+          ],
+          "antonyms": [
+              "single item",
+              "individual piece"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "design"
+          ],
+          "audioUrl": "https://example.com/audio/portfolio.mp3",
+          "imageUrl": "https://example.com/images/portfolio.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_015",
+          "word": "market share",
+          "phonetic": "/ˈmɑːrkɪt ʃɛr/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_015",
+          "definitions": [
+              {
+                  "definition": "市場佔有率",
+                  "example": "The company aims to increase its market share by 5% next year.",
+                  "exampleTranslation": "公司目標是明年將市場佔有率提高5%。"
+              }
+          ],
+          "synonyms": [
+              "market proportion",
+              "sales percentage"
+          ],
+          "antonyms": [
+              "market loss",
+              "shrinking share"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "strategy"
+          ],
+          "audioUrl": "https://example.com/audio/market_share.mp3",
+          "imageUrl": "https://example.com/images/market_share.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_016",
+          "word": "supply chain",
+          "phonetic": "/səˈplaɪ tʃeɪn/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_016",
+          "definitions": [
+              {
+                  "definition": "供應鏈",
+                  "example": "Disruptions in the global supply chain affected many industries.",
+                  "exampleTranslation": "全球供應鏈的中斷影響了許多行業。"
+              }
+          ],
+          "synonyms": [
+              "logistics network",
+              "distribution channel"
+          ],
+          "antonyms": [
+              "local production",
+              "direct sales"
+          ],
+          "tags": [
+              "business",
+              "logistics",
+              "operations"
+          ],
+          "audioUrl": "https://example.com/audio/supply_chain.mp3",
+          "imageUrl": "https://example.com/images/supply_chain.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_017",
+          "word": "entrepreneur",
+          "phonetic": "/ˌɒntrəprəˈnɜːr/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.68,
+          "categoryId": "cat_017",
+          "definitions": [
+              {
+                  "definition": "企業家；創業家",
+                  "example": "He's a successful entrepreneur who started several businesses.",
+                  "exampleTranslation": "他是一位成功的企業家，創辦了數家公司。"
+              }
+          ],
+          "synonyms": [
+              "founder",
+              "businessman",
+              "innovator"
+          ],
+          "antonyms": [
+              "employee",
+              "worker"
+          ],
+          "tags": [
+              "business",
+              "startup",
+              "leadership"
+          ],
+          "audioUrl": "https://example.com/audio/entrepreneur.mp3",
+          "imageUrl": "https://example.com/images/entrepreneur.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_018",
+          "word": "profit margin",
+          "phonetic": "/ˈprɒfɪt ˈmɑːrdʒɪn/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.73,
+          "categoryId": "cat_018",
+          "definitions": [
+              {
+                  "definition": "利潤率",
+                  "example": "Maintaining a healthy profit margin is essential for business survival.",
+                  "exampleTranslation": "保持健康的利潤率對企業生存至關重要。"
+              }
+          ],
+          "synonyms": [
+              "net profit ratio",
+              "profitability"
+          ],
+          "antonyms": [
+              "loss margin",
+              "negative return"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/profit_margin.mp3",
+          "imageUrl": "https://example.com/images/profit_margin.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_019",
+          "word": "capital",
+          "phonetic": "/ˈkæpɪtl/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.76,
+          "categoryId": "cat_019",
+          "definitions": [
+              {
+                  "definition": "資本；資金",
+                  "example": "The startup is seeking venture capital to expand its operations.",
+                  "exampleTranslation": "該新創公司正在尋求風險資本來擴大其營運。"
+              },
+              {
+                  "definition": "首都",
+                  "example": "Taipei is the capital city of Taiwan.",
+                  "exampleTranslation": "台北是台灣的首都。"
+              }
+          ],
+          "synonyms": [
+              "funds",
+              "assets",
+              "money"
+          ],
+          "antonyms": [
+              "debt",
+              "liabilities"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/capital.mp3",
+          "imageUrl": "https://example.com/images/capital.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_020",
+          "word": "return on investment (ROI)",
+          "phonetic": "/rɪˈtɜːrn ɒn ɪnˈvɛstmənt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_020",
+          "definitions": [
+              {
+                  "definition": "投資報酬率",
+                  "example": "We need to calculate the ROI for this marketing campaign.",
+                  "exampleTranslation": "我們需要計算這個行銷活動的投資報酬率。"
+              }
+          ],
+          "synonyms": [
+              "profitability index",
+              "rate of return"
+          ],
+          "antonyms": [
+              "negative return",
+              "loss"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "metrics"
+          ],
+          "audioUrl": "https://example.com/audio/roi.mp3",
+          "imageUrl": "https://example.com/images/roi.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_021",
+          "word": "fiscal year",
+          "phonetic": "/ˈfɪskl jɪər/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_021",
+          "definitions": [
+              {
+                  "definition": "財政年度；會計年度",
+                  "example": "The company's fiscal year ends on December 31st.",
+                  "exampleTranslation": "公司的財政年度於12月31日結束。"
+              }
+          ],
+          "synonyms": [
+              "financial year",
+              "accounting year"
+          ],
+          "antonyms": [
+              "calendar year"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/fiscal_year.mp3",
+          "imageUrl": "https://example.com/images/fiscal_year.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_022",
+          "word": "budget",
+          "phonetic": "/ˈbʌdʒɪt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.85,
+          "categoryId": "cat_022",
+          "definitions": [
+              {
+                  "definition": "預算",
+                  "example": "We need to stick to the marketing budget for this quarter.",
+                  "exampleTranslation": "我們本季度需要遵守行銷預算。"
+              }
+          ],
+          "synonyms": [
+              "financial plan",
+              "spending plan",
+              "allocation"
+          ],
+          "antonyms": [
+              "unlimited funds",
+              "overspending"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "planning"
+          ],
+          "audioUrl": "https://example.com/audio/budget.mp3",
+          "imageUrl": "https://example.com/images/budget.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_023",
+          "word": "corporate culture",
+          "phonetic": "/ˈkɔːrpərət ˈkʌltʃər/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_023",
+          "definitions": [
+              {
+                  "definition": "企業文化",
+                  "example": "A positive corporate culture can boost employee morale.",
+                  "exampleTranslation": "積極的企業文化可以提升員工士氣。"
+              }
+          ],
+          "synonyms": [
+              "company culture",
+              "organizational culture"
+          ],
+          "antonyms": [
+              "individualism",
+              "lack of identity"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "management"
+          ],
+          "audioUrl": "https://example.com/audio/corporate_culture.mp3",
+          "imageUrl": "https://example.com/images/corporate_culture.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_024",
+          "word": "board meeting",
+          "phonetic": "/bɔːrd ˈmiːtɪŋ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_024",
+          "definitions": [
+              {
+                  "definition": "董事會會議",
+                  "example": "The board meeting will review the company's financial performance.",
+                  "exampleTranslation": "董事會會議將審查公司的財務表現。"
+              }
+          ],
+          "synonyms": [
+              "director's meeting",
+              "executive meeting"
+          ],
+          "antonyms": [
+              "team meeting",
+              "casual gathering"
+          ],
+          "tags": [
+              "business",
+              "corporate",
+              "meetings"
+          ],
+          "audioUrl": "https://example.com/audio/board_meeting.mp3",
+          "imageUrl": "https://example.com/images/board_meeting.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_025",
+          "word": "shareholder",
+          "phonetic": "/ˈʃɛrˌhoʊldər/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.74,
+          "categoryId": "cat_025",
+          "definitions": [
+              {
+                  "definition": "股東",
+                  "example": "Shareholders will vote on the new company policy.",
+                  "exampleTranslation": "股東將就新的公司政策進行投票。"
+              }
+          ],
+          "synonyms": [
+              "stockholder",
+              "investor"
+          ],
+          "antonyms": [
+              "debtor",
+              "creditor"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "corporate"
+          ],
+          "audioUrl": "https://example.com/audio/shareholder.mp3",
+          "imageUrl": "https://example.com/images/shareholder.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_026",
+          "word": "corporate social responsibility (CSR)",
+          "phonetic": "/ˈkɔːrpərət ˈsoʊʃl rɪˌspɒnsəˈbɪlɪti/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_026",
+          "definitions": [
+              {
+                  "definition": "企業社會責任",
+                  "example": "Many companies are prioritizing CSR initiatives to improve their public image.",
+                  "exampleTranslation": "許多公司正優先推動企業社會責任措施以改善其公共形象。"
+              }
+          ],
+          "synonyms": [
+              "corporate citizenship",
+              "ethical business"
+          ],
+          "antonyms": [
+              "profit maximization (at any cost)",
+              "irresponsibility"
+          ],
+          "tags": [
+              "business",
+              "ethics",
+              "sustainability"
+          ],
+          "audioUrl": "https://example.com/audio/csr.mp3",
+          "imageUrl": "https://example.com/images/csr.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_027",
+          "word": "human resources (HR)",
+          "phonetic": "/ˌhjuːmən ˈriːsɔːrsɪz/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.80,
+          "categoryId": "cat_027",
+          "definitions": [
+              {
+                  "definition": "人力資源部",
+                  "example": "Please contact the HR department for questions about your benefits.",
+                  "exampleTranslation": "有關您的福利問題，請聯繫人力資源部。"
+              }
+          ],
+          "synonyms": [
+              "personnel",
+              "staffing"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "HR",
+              "management"
+          ],
+          "audioUrl": "https://example.com/audio/hr.mp3",
+          "imageUrl": "https://example.com/images/hr.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_028",
+          "word": "recruitment",
+          "phonetic": "/rɪˈkruːtmənt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_028",
+          "definitions": [
+              {
+                  "definition": "招聘；招募",
+                  "example": "The company is focusing on recruitment for new engineers.",
+                  "exampleTranslation": "公司正著重招募新工程師。"
+              }
+          ],
+          "synonyms": [
+              "hiring",
+              "staffing",
+              "onboarding"
+          ],
+          "antonyms": [
+              "downsizing",
+              "layoffs",
+              "redundancy"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "employment"
+          ],
+          "audioUrl": "https://example.com/audio/recruitment.mp3",
+          "imageUrl": "https://example.com/images/recruitment.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_029",
+          "word": "onboarding",
+          "phonetic": "/ˈɒnbɔːrdɪŋ/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_029",
+          "definitions": [
+              {
+                  "definition": "新員工培訓；入職",
+                  "example": "Our onboarding program helps new hires integrate quickly.",
+                  "exampleTranslation": "我們的入職培訓計畫幫助新進員工快速融入。"
+              }
+          ],
+          "synonyms": [
+              "orientation",
+              "induction",
+              "training"
+          ],
+          "antonyms": [
+              "offboarding",
+              "separation"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "employment"
+          ],
+          "audioUrl": "https://example.com/audio/onboarding.mp3",
+          "imageUrl": "https://example.com/images/onboarding.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_030",
+          "word": "performance review",
+          "phonetic": "/pərˈfɔːrməns rɪˈvjuː/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_030",
+          "definitions": [
+              {
+                  "definition": "績效考核；考績",
+                  "example": "Employees have annual performance reviews with their managers.",
+                  "exampleTranslation": "員工每年都會與經理進行績效考核。"
+              }
+          ],
+          "synonyms": [
+              "appraisal",
+              "performance evaluation"
+          ],
+          "antonyms": [
+              "initial assessment"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "management"
+          ],
+          "audioUrl": "https://example.com/audio/performance_review.mp3",
+          "imageUrl": "https://example.com/images/performance_review.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_031",
+          "word": "layoff",
+          "phonetic": "/ˈleɪˌɒf/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_031",
+          "definitions": [
+              {
+                  "definition": "裁員；解僱",
+                  "example": "The company announced significant layoffs due to economic downturn.",
+                  "exampleTranslation": "由於經濟衰退，公司宣佈大幅裁員。"
+              }
+          ],
+          "synonyms": [
+              "redundancy",
+              "dismissal",
+              "termination"
+          ],
+          "antonyms": [
+              "hiring",
+              "recruitment",
+              "employment"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "employment"
+          ],
+          "audioUrl": "https://example.com/audio/layoff.mp3",
+          "imageUrl": "https://example.com/images/layoff.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_032",
+          "word": "resignation",
+          "phonetic": "/ˌrɛzɪɡˈneɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_032",
+          "definitions": [
+              {
+                  "definition": "辭職；辭呈",
+                  "example": "Her resignation came as a surprise to the whole team.",
+                  "exampleTranslation": "她的辭職令整個團隊感到驚訝。"
+              }
+          ],
+          "synonyms": [
+              "quitting",
+              "leaving",
+              "notice"
+          ],
+          "antonyms": [
+              "appointment",
+              "hiring",
+              "employment"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "employment"
+          ],
+          "audioUrl": "https://example.com/audio/resignation.mp3",
+          "imageUrl": "https://example.com/images/resignation.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_033",
+          "word": "work-life balance",
+          "phonetic": "/wɜːrk laɪf ˈbæləns/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_033",
+          "definitions": [
+              {
+                  "definition": "工作與生活平衡",
+                  "example": "Many companies now promote work-life balance to retain employees.",
+                  "exampleTranslation": "許多公司現在提倡工作與生活平衡以留住員工。"
+              }
+          ],
+          "synonyms": [
+              "life-work balance",
+              "harmony"
+          ],
+          "antonyms": [
+              "burnout",
+              "overwork",
+              "imbalance"
+          ],
+          "tags": [
+              "HR",
+              "wellness",
+              "employment"
+          ],
+          "audioUrl": "https://example.com/audio/work_life_balance.mp3",
+          "imageUrl": "https://example.com/images/work_life_balance.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_034",
+          "word": "incentive",
+          "phonetic": "/ɪnˈsɛntɪv/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.77,
+          "categoryId": "cat_034",
+          "definitions": [
+              {
+                  "definition": "激勵；獎勵",
+                  "example": "The company offers financial incentives for high-performing employees.",
+                  "exampleTranslation": "公司為表現優異的員工提供經濟獎勵。"
+              }
+          ],
+          "synonyms": [
+              "motivation",
+              "bonus",
+              "stimulus"
+          ],
+          "antonyms": [
+              "disincentive",
+              "deterrent",
+              "penalty"
+          ],
+          "tags": [
+              "business",
+              "HR",
+              "motivation"
+          ],
+          "audioUrl": "https://example.com/audio/incentive.mp3",
+          "imageUrl": "https://example.com/images/incentive.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_035",
+          "word": "compliance",
+          "phonetic": "/kəmˈplaɪəns/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.63,
+          "categoryId": "cat_035",
+          "definitions": [
+              {
+                  "definition": "遵守；符合",
+                  "example": "All new products must be in compliance with safety regulations.",
+                  "exampleTranslation": "所有新產品都必須符合安全規定。"
+              }
+          ],
+          "synonyms": [
+              "adherence",
+              "conformity",
+              "observance"
+          ],
+          "antonyms": [
+              "non-compliance",
+              "violation",
+              "breach"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "regulation"
+          ],
+          "audioUrl": "https://example.com/audio/compliance.mp3",
+          "imageUrl": "https://example.com/images/compliance.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_036",
+          "word": "due diligence",
+          "phonetic": "/djuː ˈdɪlɪdʒəns/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_036",
+          "definitions": [
+              {
+                  "definition": "盡職調查",
+                  "example": "Before acquiring the startup, we performed thorough due diligence.",
+                  "exampleTranslation": "在收購這家新創公司之前，我們進行了徹底的盡職調查。"
+              }
+          ],
+          "synonyms": [
+              "careful investigation",
+              "scrutiny",
+              "assessment"
+          ],
+          "antonyms": [
+              "negligence",
+              "recklessness"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "finance"
+          ],
+          "audioUrl": "https://example.com/audio/due_diligence.mp3",
+          "imageUrl": "https://example.com/images/due_diligence.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_037",
+          "word": "brand loyalty",
+          "phonetic": "/brænd ˈlɔɪəlti/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_037",
+          "definitions": [
+              {
+                  "definition": "品牌忠誠度",
+                  "example": "Building strong brand loyalty is crucial for long-term success.",
+                  "exampleTranslation": "建立強大的品牌忠誠度對長期成功至關重要。"
+              }
+          ],
+          "synonyms": [
+              "customer loyalty",
+              "brand allegiance"
+          ],
+          "antonyms": [
+              "brand switching",
+              "disloyalty"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "customer"
+          ],
+          "audioUrl": "https://example.com/audio/brand_loyalty.mp3",
+          "imageUrl": "https://example.com/images/brand_loyalty.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_038",
+          "word": "market research",
+          "phonetic": "/ˈmɑːrkɪt rɪˌsɜːrtʃ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_038",
+          "definitions": [
+              {
+                  "definition": "市場調查",
+                  "example": "Extensive market research was conducted before launching the new product.",
+                  "exampleTranslation": "在新產品上市前進行了廣泛的市場調查。"
+              }
+          ],
+          "synonyms": [
+              "market analysis",
+              "consumer research"
+          ],
+          "antonyms": [
+              "speculation",
+              "guesswork"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "data"
+          ],
+          "audioUrl": "https://example.com/audio/market_research.mp3",
+          "imageUrl": "https://example.com/images/market_research.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_039",
+          "word": "customer relationship management (CRM)",
+          "phonetic": "/ˈkʌstəmər rɪˈleɪʃnʃɪp ˈmænɪdʒmənt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_039",
+          "definitions": [
+              {
+                  "definition": "客戶關係管理",
+                  "example": "Implementing a new CRM system improved our customer service.",
+                  "exampleTranslation": "實施新的客戶關係管理系統改善了我們的客戶服務。"
+              }
+          ],
+          "synonyms": [
+              "client management",
+              "customer experience"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "marketing",
+              "technology"
+          ],
+          "audioUrl": "https://example.com/audio/crm.mp3",
+          "imageUrl": "https://example.com/images/crm.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_040",
+          "word": "e-commerce",
+          "phonetic": "/ˈiː ˌkɒmərs/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.80,
+          "categoryId": "cat_040",
+          "definitions": [
+              {
+                  "definition": "電子商務",
+                  "example": "Many businesses have shifted to e-commerce due to changing consumer habits.",
+                  "exampleTranslation": "由於消費者習慣的改變，許多企業已轉向電子商務。"
+              }
+          ],
+          "synonyms": [
+              "online retail",
+              "internet commerce"
+          ],
+          "antonyms": [
+              "brick-and-mortar retail",
+              "physical store"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "sales"
+          ],
+          "audioUrl": "https://example.com/audio/e_commerce.mp3",
+          "imageUrl": "https://example.com/images/e_commerce.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_041",
+          "word": "digital marketing",
+          "phonetic": "/ˈdɪdʒɪtl ˈmɑːrkɪtɪŋ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.78,
+          "categoryId": "cat_041",
+          "definitions": [
+              {
+                  "definition": "數位行銷",
+                  "example": "Our digital marketing team focuses on SEO and social media campaigns.",
+                  "exampleTranslation": "我們的數位行銷團隊專注於SEO和社群媒體活動。"
+              }
+          ],
+          "synonyms": [
+              "online marketing",
+              "internet marketing"
+          ],
+          "antonyms": [
+              "traditional marketing",
+              "offline marketing"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "technology"
+          ],
+          "audioUrl": "https://example.com/audio/digital_marketing.mp3",
+          "imageUrl": "https://example.com/images/digital_marketing.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_042",
+          "word": "SEO (Search Engine Optimization)",
+          "phonetic": "/ˌɛs iː ˈoʊ/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_042",
+          "definitions": [
+              {
+                  "definition": "搜尋引擎優化",
+                  "example": "Improving our website's SEO is crucial for organic traffic.",
+                  "exampleTranslation": "優化我們網站的搜尋引擎對自然流量至關重要。"
+              }
+          ],
+          "synonyms": [
+              "search ranking improvement",
+              "web optimization"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "marketing",
+              "technology"
+          ],
+          "audioUrl": "https://example.com/audio/seo.mp3",
+          "imageUrl": "https://example.com/images/seo.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_043",
+          "word": "social media marketing",
+          "phonetic": "/ˈsoʊʃl ˈmiːdiə ˈmɑːrkɪtɪŋ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_043",
+          "definitions": [
+              {
+                  "definition": "社群媒體行銷",
+                  "example": "We've seen great success with our new social media marketing campaign.",
+                  "exampleTranslation": "我們在新的社群媒體行銷活動中取得了巨大成功。"
+              }
+          ],
+          "synonyms": [
+              "social marketing",
+              "SMM"
+          ],
+          "antonyms": [
+              "traditional advertising"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "social media"
+          ],
+          "audioUrl": "https://example.com/audio/social_media_marketing.mp3",
+          "imageUrl": "https://example.com/images/social_media_marketing.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_044",
+          "word": "branding",
+          "phonetic": "/ˈbrændɪŋ/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.79,
+          "categoryId": "cat_044",
+          "definitions": [
+              {
+                  "definition": "品牌塑造；品牌建立",
+                  "example": "Effective branding helps a company stand out from its competitors.",
+                  "exampleTranslation": "有效的品牌塑造有助於公司在競爭對手中脫穎而出。"
+              }
+          ],
+          "synonyms": [
+              "identity creation",
+              "brand development"
+          ],
+          "antonyms": [
+              "anonymity",
+              "lack of identity"
+          ],
+          "tags": [
+              "business",
+              "marketing",
+              "design"
+          ],
+          "audioUrl": "https://example.com/audio/branding.mp3",
+          "imageUrl": "https://example.com/images/branding.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_045",
+          "word": "public relations (PR)",
+          "phonetic": "/ˌpʌblɪk rɪˈleɪʃnz/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_045",
+          "definitions": [
+              {
+                  "definition": "公共關係",
+                  "example": "The PR team is working to manage the company's image after the scandal.",
+                  "exampleTranslation": "在醜聞發生後，公關團隊正在努力管理公司的形象。"
+              }
+          ],
+          "synonyms": [
+              "media relations",
+              "corporate communications"
+          ],
+          "antonyms": [
+              "private affairs"
+          ],
+          "tags": [
+              "business",
+              "communication",
+              "marketing"
+          ],
+          "audioUrl": "https://example.com/audio/pr.mp3",
+          "imageUrl": "https://example.com/images/pr.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_046",
+          "word": "pitch",
+          "phonetic": "/pɪtʃ/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_046",
+          "definitions": [
+              {
+                  "definition": "推銷；提案",
+                  "example": "He gave a compelling pitch to the investors for his new startup idea.",
+                  "exampleTranslation": "他向投資者就他的新創理念進行了一場引人注目的推銷。"
+              },
+              {
+                  "definition": "投擲",
+                  "example": "The pitcher made a perfect pitch.",
+                  "exampleTranslation": "投手投出了一個完美的球。"
+              }
+          ],
+          "synonyms": [
+              "presentation",
+              "sales talk",
+              "proposal"
+          ],
+          "antonyms": [
+              "rejection",
+              "critique"
+          ],
+          "tags": [
+              "business",
+              "sales",
+              "communication"
+          ],
+          "audioUrl": "https://example.com/audio/pitch.mp3",
+          "imageUrl": "https://example.com/images/pitch.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_047",
+          "word": "vendor",
+          "phonetic": "/ˈvɛndər/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_047",
+          "definitions": [
+              {
+                  "definition": "供應商；小販",
+                  "example": "We are evaluating proposals from several software vendors.",
+                  "exampleTranslation": "我們正在評估幾家軟體供應商的提案。"
+              }
+          ],
+          "synonyms": [
+              "supplier",
+              "seller",
+              "provider"
+          ],
+          "antonyms": [
+              "customer",
+              "buyer"
+          ],
+          "tags": [
+              "business",
+              "supply chain",
+              "sales"
+          ],
+          "audioUrl": "https://example.com/audio/vendor.mp3",
+          "imageUrl": "https://example.com/images/vendor.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_048",
+          "word": "invoice",
+          "phonetic": "/ˈɪnvɔɪs/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_048",
+          "definitions": [
+              {
+                  "definition": "發票；帳單",
+                  "example": "Please send the invoice to our accounting department.",
+                  "exampleTranslation": "請將發票寄給我們的會計部門。"
+              }
+          ],
+          "synonyms": [
+              "bill",
+              "statement",
+              "charge"
+          ],
+          "antonyms": [
+              "payment",
+              "receipt"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/invoice.mp3",
+          "imageUrl": "https://example.com/images/invoice.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_049",
+          "word": "receipt",
+          "phonetic": "/rɪˈsiːt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.80,
+          "categoryId": "cat_049",
+          "definitions": [
+              {
+                  "definition": "收據；收到",
+                  "example": "Keep your receipt for proof of purchase.",
+                  "exampleTranslation": "請保留您的收據作為購買證明。"
+              },
+              {
+                  "definition": "食譜",
+                  "example": "Do you have a good receipt for apple pie?",
+                  "exampleTranslation": "你有好的蘋果派食譜嗎？"
+              }
+          ],
+          "synonyms": [
+              "proof of purchase",
+              "voucher",
+              "slip"
+          ],
+          "antonyms": [
+              "invoice",
+              "bill"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "shopping"
+          ],
+          "audioUrl": "https://example.com/audio/receipt.mp3",
+          "imageUrl": "https://example.com/images/receipt.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_050",
+          "word": "reimbursement",
+          "phonetic": "/ˌriːɪmˈbɜːrsmənt/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_050",
+          "definitions": [
+              {
+                  "definition": "報銷；費用償還",
+                  "example": "Submit your travel expenses for reimbursement by the end of the month.",
+                  "exampleTranslation": "請在月底前提交您的差旅費用以供報銷。"
+              }
+          ],
+          "synonyms": [
+              "repayment",
+              "compensation",
+              "refund"
+          ],
+          "antonyms": [
+              "charge",
+              "fee",
+              "payment due"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "HR"
+          ],
+          "audioUrl": "https://example.com/audio/reimbursement.mp3",
+          "imageUrl": "https://example.com/images/reimbursement.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_051",
+          "word": "audit",
+          "phonetic": "/ˈɔːdɪt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_051",
+          "definitions": [
+              {
+                  "definition": "審計；查帳",
+                  "example": "The company undergoes an annual financial audit.",
+                  "exampleTranslation": "公司每年都進行一次財務審計。"
+              }
+          ],
+          "synonyms": [
+              "inspection",
+              "review",
+              "examination"
+          ],
+          "antonyms": [
+              "neglect",
+              "disregard"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/audit.mp3",
+          "imageUrl": "https://example.com/images/audit.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_052",
+          "word": "compliance",
+          "phonetic": "/kəmˈplaɪəns/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.63,
+          "categoryId": "cat_052",
+          "definitions": [
+              {
+                  "definition": "遵守；符合",
+                  "example": "All new products must be in compliance with safety regulations.",
+                  "exampleTranslation": "所有新產品都必須符合安全規定。"
+              }
+          ],
+          "synonyms": [
+              "adherence",
+              "conformity",
+              "observance"
+          ],
+          "antonyms": [
+              "non-compliance",
+              "violation",
+              "breach"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "regulation"
+          ],
+          "audioUrl": "https://example.com/audio/compliance.mp3",
+          "imageUrl": "https://example.com/images/compliance.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_053",
+          "word": "liability",
+          "phonetic": "/ˌlaɪəˈbɪləti/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_053",
+          "definitions": [
+              {
+                  "definition": "責任；債務",
+                  "example": "The company has limited liability for its shareholders.",
+                  "exampleTranslation": "該公司對其股東承擔有限責任。"
+              },
+              {
+                  "definition": "不利因素",
+                  "example": "His lack of experience could be a liability.",
+                  "exampleTranslation": "他缺乏經驗可能是一個不利因素。"
+              }
+          ],
+          "synonyms": [
+              "debt",
+              "obligation",
+              "accountability"
+          ],
+          "antonyms": [
+              "asset",
+              "advantage",
+              "immunity"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/liability.mp3",
+          "imageUrl": "https://example.com/images/liability.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_054",
+          "word": "asset",
+          "phonetic": "/ˈæsɛt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_054",
+          "definitions": [
+              {
+                  "definition": "資產；優勢",
+                  "example": "The company's intellectual property is a valuable asset.",
+                  "exampleTranslation": "公司的智慧財產權是一項寶貴的資產。"
+              }
+          ],
+          "synonyms": [
+              "resource",
+              "property",
+              "advantage"
+          ],
+          "antonyms": [
+              "liability",
+              "debt",
+              "handicap"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/asset.mp3",
+          "imageUrl": "https://example.com/images/asset.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_055",
+          "word": "equity",
+          "phonetic": "/ˈɛkwɪti/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_055",
+          "definitions": [
+              {
+                  "definition": "股權；淨值",
+                  "example": "Investors will receive equity in the startup in exchange for funding.",
+                  "exampleTranslation": "投資者將獲得新創公司的股權以換取資金。"
+              },
+              {
+                  "definition": "公平；公正",
+                  "example": "The company is committed to promoting diversity and equity.",
+                  "exampleTranslation": "公司致力於促進多元化和公平。"
+              }
+          ],
+          "synonyms": [
+              "ownership",
+              "net worth",
+              "fairness"
+          ],
+          "antonyms": [
+              "debt",
+              "imbalance",
+              "inequity"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/equity.mp3",
+          "imageUrl": "https://example.com/images/equity.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_056",
+          "word": "overhead",
+          "phonetic": "/ˈoʊvərˌhɛd/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_056",
+          "definitions": [
+              {
+                  "definition": "營運成本；間接費用",
+                  "example": "We need to reduce our monthly overhead to improve profitability.",
+                  "exampleTranslation": "我們需要降低每月營運成本以提高獲利能力。"
+              }
+          ],
+          "synonyms": [
+              "operating costs",
+              "fixed costs",
+              "expenses"
+          ],
+          "antonyms": [
+              "revenue",
+              "income",
+              "profit"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/overhead.mp3",
+          "imageUrl": "https://example.com/images/overhead.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_057",
+          "word": "ROI (Return on Investment)",
+          "phonetic": "/ˌɑːr oʊ ˈaɪ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_057",
+          "definitions": [
+              {
+                  "definition": "投資報酬率",
+                  "example": "Calculating the ROI helps us assess the effectiveness of our campaigns.",
+                  "exampleTranslation": "計算投資報酬率有助於我們評估活動的有效性。"
+              }
+          ],
+          "synonyms": [
+              "profitability",
+              "yield"
+          ],
+          "antonyms": [
+              "loss",
+              "negative return"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "metrics"
+          ],
+          "audioUrl": "https://example.com/audio/roi_full.mp3",
+          "imageUrl": "https://example.com/images/roi_full.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_058",
+          "word": "forecasting",
+          "phonetic": "/ˈfɔːrˌkæstɪŋ/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.65,
+          "categoryId": "cat_058",
+          "definitions": [
+              {
+                  "definition": "預測；預報",
+                  "example": "Sales forecasting is important for inventory management.",
+                  "exampleTranslation": "銷售預測對於庫存管理很重要。"
+              }
+          ],
+          "synonyms": [
+              "prediction",
+              "projection",
+              "estimation"
+          ],
+          "antonyms": [
+              "retrospection",
+              "analysis (of past data)"
+          ],
+          "tags": [
+              "business",
+              "planning",
+              "analytics"
+          ],
+          "audioUrl": "https://example.com/audio/forecasting.mp3",
+          "imageUrl": "https://example.com/images/forecasting.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_059",
+          "word": "break-even point",
+          "phonetic": "/ˈbreɪk ˌiːvn pɔɪnt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.58,
+          "categoryId": "cat_059",
+          "definitions": [
+              {
+                  "definition": "損益兩平點",
+                  "example": "We need to sell 10,000 units to reach our break-even point.",
+                  "exampleTranslation": "我們需要銷售10,000個單位才能達到損益兩平點。"
+              }
+          ],
+          "synonyms": [
+              "no-loss point",
+              "zero profit point"
+          ],
+          "antonyms": [
+              "profit margin",
+              "loss point"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/break_even_point.mp3",
+          "imageUrl": "https://example.com/images/break_even_point.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_060",
+          "word": "cash flow",
+          "phonetic": "/kæʃ floʊ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_060",
+          "definitions": [
+              {
+                  "definition": "現金流",
+                  "example": "Positive cash flow is vital for a company's liquidity.",
+                  "exampleTranslation": "正向現金流對公司的流動性至關重要。"
+              }
+          ],
+          "synonyms": [
+              "money in/out",
+              "financial movement"
+          ],
+          "antonyms": [
+              "debt accumulation",
+              "stagnant funds"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/cash_flow.mp3",
+          "imageUrl": "https://example.com/images/cash_flow.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_061",
+          "word": "debt",
+          "phonetic": "/dɛt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_061",
+          "definitions": [
+              {
+                  "definition": "債務；負債",
+                  "example": "The company is working to reduce its long-term debt.",
+                  "exampleTranslation": "公司正在努力減少其長期債務。"
+              }
+          ],
+          "synonyms": [
+              "loan",
+              "liability",
+              "obligation"
+          ],
+          "antonyms": [
+              "asset",
+              "equity",
+              "savings"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "accounting"
+          ],
+          "audioUrl": "https://example.com/audio/debt.mp3",
+          "imageUrl": "https://example.com/images/debt.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_062",
+          "word": "loan",
+          "phonetic": "/loʊn/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_062",
+          "definitions": [
+              {
+                  "definition": "貸款；借款",
+                  "example": "She applied for a business loan to expand her small company.",
+                  "exampleTranslation": "她申請了一筆商業貸款來擴大她的小公司。"
+              }
+          ],
+          "synonyms": [
+              "credit",
+              "advance",
+              "borrowing"
+          ],
+          "antonyms": [
+              "repayment",
+              "gift",
+              "grant"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "banking"
+          ],
+          "audioUrl": "https://example.com/audio/loan.mp3",
+          "imageUrl": "https://example.com/images/loan.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_063",
+          "word": "interest rate",
+          "phonetic": "/ˈɪntrəst reɪt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_063",
+          "definitions": [
+              {
+                  "definition": "利率",
+                  "example": "The central bank decided to raise the interest rate.",
+                  "exampleTranslation": "中央銀行決定提高利率。"
+              }
+          ],
+          "synonyms": [
+              "borrowing cost",
+              "rate of return"
+          ],
+          "antonyms": [
+              "principal"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/interest_rate.mp3",
+          "imageUrl": "https://example.com/images/interest_rate.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_064",
+          "word": "investment",
+          "phonetic": "/ɪnˈvɛstmənt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.78,
+          "categoryId": "cat_064",
+          "definitions": [
+              {
+                  "definition": "投資",
+                  "example": "His investment in real estate proved to be very profitable.",
+                  "exampleTranslation": "他對房地產的投資證明非常有利可圖。"
+              }
+          ],
+          "synonyms": [
+              "capital placement",
+              "financial stake",
+              "venture"
+          ],
+          "antonyms": [
+              "divestment",
+              "withdrawal",
+              "spending"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/investment.mp3",
+          "imageUrl": "https://example.com/images/investment.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_065",
+          "word": "stock market",
+          "phonetic": "/stɒk ˈmɑːrkɪt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.73,
+          "categoryId": "cat_065",
+          "definitions": [
+              {
+                  "definition": "股票市場",
+                  "example": "The stock market experienced a significant dip yesterday.",
+                  "exampleTranslation": "股市昨天經歷了大幅下跌。"
+              }
+          ],
+          "synonyms": [
+              "equities market",
+              " bourse"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "finance",
+              "economics"
+          ],
+          "audioUrl": "https://example.com/audio/stock_market.mp3",
+          "imageUrl": "https://example.com/images/stock_market.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_066",
+          "word": "dividend",
+          "phonetic": "/ˈdɪvɪdɛnd/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_066",
+          "definitions": [
+              {
+                  "definition": "股利；紅利",
+                  "example": "Shareholders will receive a dividend payment next month.",
+                  "exampleTranslation": "股東將於下個月收到股利支付。"
+              }
+          ],
+          "synonyms": [
+              "payout",
+              "share of profits",
+              "distribution"
+          ],
+          "antonyms": [
+              "loss",
+              "reinvestment"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "corporate"
+          ],
+          "audioUrl": "https://example.com/audio/dividend.mp3",
+          "imageUrl": "https://example.com/images/dividend.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_067",
+          "word": "venture capital",
+          "phonetic": "/ˈvɛntʃər ˈkæpɪtl/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_067",
+          "definitions": [
+              {
+                  "definition": "風險投資",
+                  "example": "Many startups rely on venture capital to fund their early growth.",
+                  "exampleTranslation": "許多新創公司依靠風險投資來資助其早期成長。"
+              }
+          ],
+          "synonyms": [
+              "startup funding",
+              "seed capital"
+          ],
+          "antonyms": [
+              "bootstrap funding",
+              "bank loan"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "startup"
+          ],
+          "audioUrl": "https://example.com/audio/venture_capital.mp3",
+          "imageUrl": "https://example.com/images/venture_capital.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_068",
+          "word": "angel investor",
+          "phonetic": "/ˈeɪndʒəl ɪnˈvɛstər/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.58,
+          "categoryId": "cat_068",
+          "definitions": [
+              {
+                  "definition": "天使投資人",
+                  "example": "An angel investor provided the initial funding for the tech startup.",
+                  "exampleTranslation": "一位天使投資人為這家科技新創公司提供了初始資金。"
+              }
+          ],
+          "synonyms": [
+              "private investor",
+              "seed funder"
+          ],
+          "antonyms": [
+              "institutional investor",
+              "bank"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "startup"
+          ],
+          "audioUrl": "https://example.com/audio/angel_investor.mp3",
+          "imageUrl": "https://example.com/images/angel_investor.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_069",
+          "word": "pitch deck",
+          "phonetic": "/pɪtʃ dɛk/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.50,
+          "categoryId": "cat_069",
+          "definitions": [
+              {
+                  "definition": "募資簡報",
+                  "example": "The CEO spent weeks perfecting the pitch deck for potential investors.",
+                  "exampleTranslation": "執行長花了數週時間完善給潛在投資者的募資簡報。"
+              }
+          ],
+          "synonyms": [
+              "investor presentation",
+              "startup presentation"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "startup",
+              "finance"
+          ],
+          "audioUrl": "https://example.com/audio/pitch_deck.mp3",
+          "imageUrl": "https://example.com/images/pitch_deck.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_070",
+          "word": "incubator",
+          "phonetic": "/ˈɪnkjubeɪtər/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_070",
+          "definitions": [
+              {
+                  "definition": "創業孵化器",
+                  "example": "The tech startup joined an incubator program to get mentorship and funding.",
+                  "exampleTranslation": "這家科技新創公司加入了一個創業孵化器計畫，以獲得指導和資金。"
+              },
+              {
+                  "definition": "孵化器 (育嬰箱)",
+                  "example": "The premature baby was placed in an incubator.",
+                  "exampleTranslation": "早產兒被放在保溫箱裡。"
+              }
+          ],
+          "synonyms": [
+              "accelerator",
+              "startup hub",
+              "nurturing environment"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "startup",
+              "development"
+          ],
+          "audioUrl": "https://example.com/audio/incubator.mp3",
+          "imageUrl": "https://example.com/images/incubator.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_071",
+          "word": "startup",
+          "phonetic": "/ˈstɑːrtˌʌp/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.75,
+          "categoryId": "cat_071",
+          "definitions": [
+              {
+                  "definition": "新創公司",
+                  "example": "Many young entrepreneurs are launching tech startups.",
+                  "exampleTranslation": "許多年輕企業家正在創辦科技新創公司。"
+              }
+          ],
+          "synonyms": [
+              "new venture",
+              "new business",
+              "emerging company"
+          ],
+          "antonyms": [
+              "established company",
+              "corporation"
+          ],
+          "tags": [
+              "business",
+              "entrepreneurship",
+              "innovation"
+          ],
+          "audioUrl": "https://example.com/audio/startup.mp3",
+          "imageUrl": "https://example.com/images/startup.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_072",
+          "word": "accelerator",
+          "phonetic": "/əkˈsɛləreɪtər/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.50,
+          "categoryId": "cat_072",
+          "definitions": [
+              {
+                  "definition": "加速器；創業加速器",
+                  "example": "Our startup was accepted into a prestigious accelerator program.",
+                  "exampleTranslation": "我們的新創公司被一個著名的加速器計畫錄取了。"
+              },
+              {
+                  "definition": "油門",
+                  "example": "Press the accelerator to increase speed.",
+                  "exampleTranslation": "踩下油門以加速。"
+              }
+          ],
+          "synonyms": [
+              "incubator",
+              "booster",
+              "growth program"
+          ],
+          "antonyms": [
+              "decelerator",
+              "brake"
+          ],
+          "tags": [
+              "business",
+              "startup",
+              "development"
+          ],
+          "audioUrl": "https://example.com/audio/accelerator.mp3",
+          "imageUrl": "https://example.com/images/accelerator.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_073",
+          "word": "elevator pitch",
+          "phonetic": "/ˈɛləveɪtər pɪtʃ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_073",
+          "definitions": [
+              {
+                  "definition": "電梯簡報；一分鐘簡報",
+                  "example": "You need a strong elevator pitch to grab investors' attention quickly.",
+                  "exampleTranslation": "你需要一個強有力的電梯簡報才能快速吸引投資者的注意力。"
+              }
+          ],
+          "synonyms": [
+              "brief summary",
+              "concise presentation"
+          ],
+          "antonyms": [
+              "long explanation",
+              "detailed report"
+          ],
+          "tags": [
+              "business",
+              "startup",
+              "communication"
+          ],
+          "audioUrl": "https://example.com/audio/elevator_pitch.mp3",
+          "imageUrl": "https://example.com/images/elevator_pitch.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_074",
+          "word": "intellectual property (IP)",
+          "phonetic": "/ˌɪntəˈlɛktʃuəl ˈprɒpərti/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_074",
+          "definitions": [
+              {
+                  "definition": "智慧財產權",
+                  "example": "Protecting our intellectual property is vital for our competitive edge.",
+                  "exampleTranslation": "保護我們的智慧財產權對我們的競爭優勢至關重要。"
+              }
+          ],
+          "synonyms": [
+              "copyrights",
+              "patents",
+              "trademarks"
+          ],
+          "antonyms": [
+              "public domain"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "technology"
+          ],
+          "audioUrl": "https://example.com/audio/ip.mp3",
+          "imageUrl": "https://example.com/images/ip.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_075",
+          "word": "patent",
+          "phonetic": "/ˈpætnt/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_075",
+          "definitions": [
+              {
+                  "definition": "專利",
+                  "example": "The company filed a patent for its new invention.",
+                  "exampleTranslation": "公司為其新發明申請了專利。"
+              }
+          ],
+          "synonyms": [
+              "exclusive right",
+              "license",
+              "copyright"
+          ],
+          "antonyms": [
+              "public domain"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "innovation"
+          ],
+          "audioUrl": "https://example.com/audio/patent.mp3",
+          "imageUrl": "https://example.com/images/patent.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_076",
+          "word": "trademark",
+          "phonetic": "/ˈtreɪdmɑːrk/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_076",
+          "definitions": [
+              {
+                  "definition": "商標",
+                  "example": "The company registered its logo as a trademark.",
+                  "exampleTranslation": "公司將其標誌註冊為商標。"
+              }
+          ],
+          "synonyms": [
+              "brand name",
+              "logo",
+              "servicemark"
+          ],
+          "antonyms": [
+              "generic name"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "marketing"
+          ],
+          "audioUrl": "https://example.com/audio/trademark.mp3",
+          "imageUrl": "https://example.com/images/trademark.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_077",
+          "word": "copyright",
+          "phonetic": "/ˈkɒpiraɪt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_077",
+          "definitions": [
+              {
+                  "definition": "版權",
+                  "example": "This book is protected by copyright law.",
+                  "exampleTranslation": "這本書受版權法保護。"
+              }
+          ],
+          "synonyms": [
+              "legal right",
+              "intellectual property"
+          ],
+          "antonyms": [
+              "public domain"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "media"
+          ],
+          "audioUrl": "https://example.com/audio/copyright.mp3",
+          "imageUrl": "https://example.com/images/copyright.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_078",
+          "word": "non-disclosure agreement (NDA)",
+          "phonetic": "/nɒn dɪsˈkloʊʒər əˈɡriːmənt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_078",
+          "definitions": [
+              {
+                  "definition": "保密協議",
+                  "example": "All parties involved signed an NDA before discussing the new product.",
+                  "exampleTranslation": "所有相關方在討論新產品之前都簽署了保密協議。"
+              }
+          ],
+          "synonyms": [
+              "confidentiality agreement",
+              "secrecy agreement"
+          ],
+          "antonyms": [
+              "public release",
+              "disclosure"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "negotiation"
+          ],
+          "audioUrl": "https://example.com/audio/nda.mp3",
+          "imageUrl": "https://example.com/images/nda.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_079",
+          "word": "contract",
+          "phonetic": "/ˈkɒntrækt/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.82,
+          "categoryId": "cat_079",
+          "definitions": [
+              {
+                  "definition": "合約；合同",
+                  "example": "Please review the terms of the contract carefully before signing.",
+                  "exampleTranslation": "請在簽署前仔細審閱合約條款。"
+              }
+          ],
+          "synonyms": [
+              "agreement",
+              "deal",
+              "pact"
+          ],
+          "antonyms": [
+              "disagreement",
+              "breach"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "negotiation"
+          ],
+          "audioUrl": "https://example.com/audio/contract.mp3",
+          "imageUrl": "https://example.com/images/contract.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_080",
+          "word": "litigation",
+          "phonetic": "/ˌlɪtɪˈɡeɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.50,
+          "categoryId": "cat_080",
+          "definitions": [
+              {
+                  "definition": "訴訟",
+                  "example": "The company is involved in ongoing litigation over patent infringement.",
+                  "exampleTranslation": "該公司捲入一場關於專利侵權的訴訟。"
+              }
+          ],
+          "synonyms": [
+              "lawsuit",
+              "legal action",
+              "dispute"
+          ],
+          "antonyms": [
+              "settlement",
+              "arbitration",
+              "agreement"
+          ],
+          "tags": [
+              "business",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/litigation.mp3",
+          "imageUrl": "https://example.com/images/litigation.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_081",
+          "word": "arbitration",
+          "phonetic": "/ˌɑːrbɪˈtreɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.52,
+          "categoryId": "cat_081",
+          "definitions": [
+              {
+                  "definition": "仲裁",
+                  "example": "The dispute was resolved through arbitration rather than a lawsuit.",
+                  "exampleTranslation": "該爭議透過仲裁而非訴訟解決了。"
+              }
+          ],
+          "synonyms": [
+              "mediation",
+              "adjudication",
+              "settlement"
+          ],
+          "antonyms": [
+              "litigation",
+              "court trial"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "negotiation"
+          ],
+          "audioUrl": "https://example.com/audio/arbitration.mp3",
+          "imageUrl": "https://example.com/images/arbitration.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_082",
+          "word": "mediation",
+          "phonetic": "/ˌmiːdiˈeɪʃn/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_082",
+          "definitions": [
+              {
+                  "definition": "調解",
+                  "example": "Mediation helped both parties reach a mutual agreement.",
+                  "exampleTranslation": "調解幫助雙方達成共識。"
+              }
+          ],
+          "synonyms": [
+              "conciliation",
+              "negotiation",
+              "arbitration"
+          ],
+          "antonyms": [
+              "conflict",
+              "dispute"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "communication"
+          ],
+          "audioUrl": "https://example.com/audio/mediation.mp3",
+          "imageUrl": "https://example.com/images/mediation.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_083",
+          "word": "franchise",
+          "phonetic": "/ˈfræntʃaɪz/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.68,
+          "categoryId": "cat_083",
+          "definitions": [
+              {
+                  "definition": "特許經營權；加盟店",
+                  "example": "He decided to open a fast-food franchise.",
+                  "exampleTranslation": "他決定開一家快餐加盟店。"
+              },
+              {
+                  "definition": "選舉權",
+                  "example": "Women gained the franchise in 1920.",
+                  "exampleTranslation": "女性在1920年獲得了選舉權。"
+              }
+          ],
+          "synonyms": [
+              "license",
+              "branch",
+              "chain"
+          ],
+          "antonyms": [
+              "independent business"
+          ],
+          "tags": [
+              "business",
+              "retail",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/franchise.mp3",
+          "imageUrl": "https://example.com/images/franchise.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_084",
+          "word": "royalty",
+          "phonetic": "/ˈrɔɪəlti/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_084",
+          "definitions": [
+              {
+                  "definition": "版稅；特許權使用費",
+                  "example": "The author receives a royalty on every book sold.",
+                  "exampleTranslation": "作者從每本售出的書中獲得版稅。"
+              },
+              {
+                  "definition": "王室成員",
+                  "example": "The Queen and other members of the royalty attended the event.",
+                  "exampleTranslation": "女王和其他王室成員出席了該活動。"
+              }
+          ],
+          "synonyms": [
+              "fee",
+              "commission",
+              "payment"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "finance",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/royalty.mp3",
+          "imageUrl": "https://example.com/images/royalty.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_085",
+          "word": "intellectual property rights (IPR)",
+          "phonetic": "/ˌɪntəˈlɛktʃuəl ˈprɒpərti raɪts/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.58,
+          "categoryId": "cat_085",
+          "definitions": [
+              {
+                  "definition": "智慧財產權 (總稱)",
+                  "example": "Protecting IPR is critical in the global marketplace.",
+                  "exampleTranslation": "在國際市場上，保護智慧財產權至關重要。"
+              }
+          ],
+          "synonyms": [
+              "copyrights",
+              "patents",
+              "trademarks"
+          ],
+          "antonyms": [
+              "public domain"
+          ],
+          "tags": [
+              "business",
+              "legal",
+              "innovation"
+          ],
+          "audioUrl": "https://example.com/audio/ipr.mp3",
+          "imageUrl": "https://example.com/images/ipr.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_086",
+          "word": "e-signature",
+          "phonetic": "/ˈiː ˌsɪɡnətʃər/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.65,
+          "categoryId": "cat_086",
+          "definitions": [
+              {
+                  "definition": "電子簽名",
+                  "example": "You can sign the document with an e-signature.",
+                  "exampleTranslation": "您可以用電子簽名簽署文件。"
+              }
+          ],
+          "synonyms": [
+              "digital signature",
+              "electronic signature"
+          ],
+          "antonyms": [
+              "wet signature",
+              "manual signature"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "legal"
+          ],
+          "audioUrl": "https://example.com/audio/e_signature.mp3",
+          "imageUrl": "https://example.com/images/e_signature.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_087",
+          "word": "cloud computing",
+          "phonetic": "/klaʊd kəmˈpjuːtɪŋ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.70,
+          "categoryId": "cat_087",
+          "definitions": [
+              {
+                  "definition": "雲端運算",
+                  "example": "Many companies are migrating their data to cloud computing platforms.",
+                  "exampleTranslation": "許多公司正在將其資料遷移到雲端運算平台。"
+              }
+          ],
+          "synonyms": [
+              "cloud services",
+              "distributed computing"
+          ],
+          "antonyms": [
+              "on-premise computing",
+              "local servers"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "IT"
+          ],
+          "audioUrl": "https://example.com/audio/cloud_computing.mp3",
+          "imageUrl": "https://example.com/images/cloud_computing.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_088",
+          "word": "big data",
+          "phonetic": "/bɪɡ ˈdeɪtə/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_088",
+          "definitions": [
+              {
+                  "definition": "大數據",
+                  "example": "Analyzing big data helps businesses make informed decisions.",
+                  "exampleTranslation": "分析大數據有助於企業做出明智的決策。"
+              }
+          ],
+          "synonyms": [
+              "data analytics",
+              "mass data"
+          ],
+          "antonyms": [
+              "small data"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "analytics"
+          ],
+          "audioUrl": "https://example.com/audio/big_data.mp3",
+          "imageUrl": "https://example.com/images/big_data.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_089",
+          "word": "artificial intelligence (AI)",
+          "phonetic": "/ˌɑːrtɪˈfɪʃl ɪnˈtɛlɪdʒəns/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.70,
+          "categoryId": "cat_089",
+          "definitions": [
+              {
+                  "definition": "人工智慧",
+                  "example": "AI is transforming various industries, from healthcare to finance.",
+                  "exampleTranslation": "人工智慧正在改變從醫療保健到金融的各行各業。"
+              }
+          ],
+          "synonyms": [
+              "machine intelligence",
+              "AI technology"
+          ],
+          "antonyms": [
+              "natural intelligence"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "innovation"
+          ],
+          "audioUrl": "https://example.com/audio/ai.mp3",
+          "imageUrl": "https://example.com/images/ai.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_090",
+          "word": "machine learning (ML)",
+          "phonetic": "/məˈʃiːn ˈlɜːrnɪŋ/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.65,
+          "categoryId": "cat_090",
+          "definitions": [
+              {
+                  "definition": "機器學習",
+                  "example": "ML algorithms are used to predict consumer behavior.",
+                  "exampleTranslation": "機器學習演算法用於預測消費者行為。"
+              }
+          ],
+          "synonyms": [
+              "deep learning",
+              "predictive analytics"
+          ],
+          "antonyms": [
+              "manual programming"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "data"
+          ],
+          "audioUrl": "https://example.com/audio/ml.mp3",
+          "imageUrl": "https://example.com/images/ml.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_091",
+          "word": "cybersecurity",
+          "phonetic": "/ˌsaɪbərˈsɛkjʊrɪti/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.72,
+          "categoryId": "cat_091",
+          "definitions": [
+              {
+                  "definition": "網路安全",
+                  "example": "Investing in robust cybersecurity is essential for protecting sensitive data.",
+                  "exampleTranslation": "投資強大的網路安全對於保護敏感資料至關重要。"
+              }
+          ],
+          "synonyms": [
+              "digital security",
+              "IT security",
+              "network security"
+          ],
+          "antonyms": [
+              "vulnerability",
+              "insecurity"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "risk management"
+          ],
+          "audioUrl": "https://example.com/audio/cybersecurity.mp3",
+          "imageUrl": "https://example.com/images/cybersecurity.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_092",
+          "word": "blockchain",
+          "phonetic": "/ˈblɒkˌtʃeɪn/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.58,
+          "categoryId": "cat_092",
+          "definitions": [
+              {
+                  "definition": "區塊鏈",
+                  "example": "Blockchain technology has the potential to revolutionize various industries.",
+                  "exampleTranslation": "區塊鏈技術有潛力徹底改變各行各業。"
+              }
+          ],
+          "synonyms": [
+              "distributed ledger technology"
+          ],
+          "antonyms": [
+              "centralized database"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "finance"
+          ],
+          "audioUrl": "https://example.com/audio/blockchain.mp3",
+          "imageUrl": "https://example.com/images/blockchain.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_093",
+          "word": "virtual reality (VR)",
+          "phonetic": "/ˈvɜːrtʃuəl riˈælɪti/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "intermediate",
+          "frequency": 0.65,
+          "categoryId": "cat_093",
+          "definitions": [
+              {
+                  "definition": "虛擬實境",
+                  "example": "VR headsets are becoming more common in gaming and training.",
+                  "exampleTranslation": "虛擬實境頭戴式裝置在遊戲和培訓中越來越普遍。"
+              }
+          ],
+          "synonyms": [
+              "immersive technology",
+              "simulated reality"
+          ],
+          "antonyms": [
+              "actual reality"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "entertainment"
+          ],
+          "audioUrl": "https://example.com/audio/vr.mp3",
+          "imageUrl": "https://example.com/images/vr.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_094",
+          "word": "augmented reality (AR)",
+          "phonetic": "/ˌɔːɡmɛntɪd riˈælɪti/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_094",
+          "definitions": [
+              {
+                  "definition": "擴增實境",
+                  "example": "AR apps overlay digital information onto the real world.",
+                  "exampleTranslation": "擴增實境應用程式將數位資訊疊加到現實世界中。"
+              }
+          ],
+          "synonyms": [
+              "mixed reality"
+          ],
+          "antonyms": [
+              "virtual reality"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "innovation"
+          ],
+          "audioUrl": "https://example.com/audio/ar.mp3",
+          "imageUrl": "https://example.com/images/ar.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_095",
+          "word": "internet of things (IoT)",
+          "phonetic": "/ˈɪntərˌnɛt əv θɪŋz/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_095",
+          "definitions": [
+              {
+                  "definition": "物聯網",
+                  "example": "IoT devices are connecting homes and industries, enabling smart automation.",
+                  "exampleTranslation": "物聯網設備正在連接家庭和工業，實現智慧自動化。"
+              }
+          ],
+          "synonyms": [
+              "connected devices",
+              "smart devices"
+          ],
+          "antonyms": [
+              "isolated systems"
+          ],
+          "tags": [
+              "business",
+              "technology",
+              "automation"
+          ],
+          "audioUrl": "https://example.com/audio/iot.mp3",
+          "imageUrl": "https://example.com/images/iot.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_096",
+          "word": "fintech",
+          "phonetic": "/ˈfɪntɛk/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.58,
+          "categoryId": "cat_096",
+          "definitions": [
+              {
+                  "definition": "金融科技",
+                  "example": "Fintech companies are disrupting traditional banking services.",
+                  "exampleTranslation": "金融科技公司正在顛覆傳統銀行服務。"
+              }
+          ],
+          "synonyms": [
+              "financial technology"
+          ],
+          "antonyms": [
+              "traditional finance"
+          ],
+          "tags": [
+              "business",
+              "finance",
+              "technology"
+          ],
+          "audioUrl": "https://example.com/audio/fintech.mp3",
+          "imageUrl": "https://example.com/images/fintech.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_097",
+          "word": "sustainable development",
+          "phonetic": "/səˈsteɪnəbl dɪˈvɛləpmənt/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_097",
+          "definitions": [
+              {
+                  "definition": "永續發展",
+                  "example": "Many corporations are prioritizing sustainable development goals.",
+                  "exampleTranslation": "許多企業正在優先考慮永續發展目標。"
+              }
+          ],
+          "synonyms": [
+              "eco-friendly growth",
+              "green development"
+          ],
+          "antonyms": [
+              "unsustainable practices",
+              "environmental degradation"
+          ],
+          "tags": [
+              "business",
+              "environment",
+              "strategy"
+          ],
+          "audioUrl": "https://example.com/audio/sustainable_development.mp3",
+          "imageUrl": "https://example.com/images/sustainable_development.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_098",
+          "word": "CSR (Corporate Social Responsibility)",
+          "phonetic": "/ˌsiː ɛs ˈɑːr/",
+          "partOfSpeech": "noun",
+          "difficulty": "intermediate",
+          "frequency": 0.65,
+          "categoryId": "cat_098",
+          "definitions": [
+              {
+                  "definition": "企業社會責任 (縮寫)",
+                  "example": "Our CSR report highlights our efforts in community engagement and environmental protection.",
+                  "exampleTranslation": "我們的企業社會責任報告強調了我們在社區參與和環境保護方面的努力。"
+              }
+          ],
+          "synonyms": [
+              "corporate citizenship",
+              "ethical business"
+          ],
+          "antonyms": [
+              "profit maximization (at any cost)"
+          ],
+          "tags": [
+              "business",
+              "ethics",
+              "sustainability"
+          ],
+          "audioUrl": "https://example.com/audio/csr_full.mp3",
+          "imageUrl": "https://example.com/images/csr_full.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_099",
+          "word": "ESG (Environmental, Social, and Governance)",
+          "phonetic": "/ˌiː ɛs ˈdʒiː/",
+          "partOfSpeech": "noun",
+          "difficulty": "advanced",
+          "frequency": 0.60,
+          "categoryId": "cat_099",
+          "definitions": [
+              {
+                  "definition": "環境、社會和治理 (縮寫)",
+                  "example": "Investors are increasingly considering ESG factors when making investment decisions.",
+                  "exampleTranslation": "投資者在做出投資決策時越來越多地考慮ESG因素。"
+              }
+          ],
+          "synonyms": [
+              "sustainability metrics",
+              "ethical investment criteria"
+          ],
+          "antonyms": [],
+          "tags": [
+              "business",
+              "finance",
+              "sustainability"
+          ],
+          "audioUrl": "https://example.com/audio/esg.mp3",
+          "imageUrl": "https://example.com/images/esg.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
+      },
+      {
+          "id": "word_100",
+          "word": "circular economy",
+          "phonetic": "/ˈsɜːrkjʊlər ɪˈkɒnəmi/",
+          "partOfSpeech": "noun phrase",
+          "difficulty": "advanced",
+          "frequency": 0.55,
+          "categoryId": "cat_100",
+          "definitions": [
+              {
+                  "definition": "循環經濟",
+                  "example": "The company is transitioning towards a circular economy model to reduce waste.",
+                  "exampleTranslation": "公司正在轉向循環經濟模式以減少浪費。"
+              }
+          ],
+          "synonyms": [
+              "resource efficiency",
+              "sustainable production"
+          ],
+          "antonyms": [
+              "linear economy",
+              "take-make-dispose"
+          ],
+          "tags": [
+              "business",
+              "environment",
+              "sustainability"
+          ],
+          "audioUrl": "https://example.com/audio/circular_economy.mp3",
+          "imageUrl": "https://example.com/images/circular_economy.jpg",
+          "dateAdded": "2025-07-12",
+          "userStatus": {
+              "learned": false,
+              "starred": false,
+              "reviewCount": 0,
+              "correctCount": 0,
+              "lastReviewed": null,
+              "nextReview": null
+          }
       }
-    ]
+  ]
   },
   "studyPlans": [
     {
