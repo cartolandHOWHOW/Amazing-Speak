@@ -1,7 +1,7 @@
 # Ignore Xcode user state files
 *.xcuserstate
 *.xcworkspace/xcuserdata/
-
+.DS_Store
 DerivedData/
 
 AmazingSpeak.xcodeproj/project.xcworkspace/xcuserdata/
