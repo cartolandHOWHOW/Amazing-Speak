@@ -1,12 +1,19 @@
 
 import SwiftUI
+import AVFoundation
+
 
 // MARK: - 3. Study View
 struct StudyView: View {
+    
+    let synthesizer = AVSpeechSynthesizer() // MARK: 夏志先修改的發音常數
+    
     @EnvironmentObject var dataManager: DataManager
     @State private var currentWordIndex = 0
     @State private var showAnswer = false
     @State private var isCorrect: Bool?
+    
+    
     
     var body: some View {
         NavigationStack {
@@ -50,7 +57,11 @@ struct StudyView: View {
                                 .cornerRadius(6)
                         }
                         
-                        Button(action: {
+                        Button(action: { // MARK: 夏志先修改的發音按鈕
+                            let utterance = AVSpeechUtterance(string: "Hello World")
+                            utterance.voice = AVSpeechSynthesisVoice(identifier:"com.apple.speech.synthesis.voice.Fred")
+                            synthesizer.speak(utterance)
+                            
                             // Play audio
                         }) {
                             Image(systemName: "speaker.wave.3.fill")

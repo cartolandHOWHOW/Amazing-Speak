@@ -29,12 +29,16 @@ struct ContentView: View {
                 }
                 .tag(2)
             
+            
+            // MyView()
+            
             GameView()
                 .tabItem {
                     Image(systemName: "gamecontroller.fill")
                     Text("遊戲")
                 }
                 .tag(3)
+             
             
             ProfileView()
                 .tabItem {

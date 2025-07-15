@@ -6,7 +6,7 @@ struct HomeView: View {
     
     var body: some View {
         NavigationStack {
-            ScrollView {
+            ScrollView {    //用以塞入成就，怕塞不下，用scroll view滾動畫面
                 VStack(spacing: 20) {
                     // Header
                     HStack {
@@ -128,3 +128,4 @@ struct HomeView: View {
         }
     }
 }
+
